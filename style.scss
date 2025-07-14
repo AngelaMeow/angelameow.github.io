@@ -284,9 +284,9 @@ footer {
 }
 
 .about-intro {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-	gap: 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 4rem;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
