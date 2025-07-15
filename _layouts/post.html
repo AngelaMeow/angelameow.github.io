@@ -5,6 +5,13 @@ layout: default
 <article class="post">
   <h1>{{ page.title }}</h1>
 
+  {%- if page.image -%}
+    <img src="{{- page.image | relative_url -}}" alt="" class="featured-image-post">
+  {%- else -%}
+    {%- assign postImage = "../images/image-default.jpg" -%}
+    <img src="{{- postImage | relative_url -}}" alt="" class="featured-image-post">
+  {%- endif -%}
+
   <div class="entry">
     {{ content }}
   </div>
