@@ -11,16 +11,16 @@ layout: default
     {% for post in site.posts %}
       <article class="post">
   
-        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
         {%- if post.image -%}
-          <img src="{{- post.image | relative_url -}}" alt="" class="blog-roll-image">
+          <img src="{{- post.image | relative_url -}}" alt="" class="post-image">
         {%- else -%}
           {%- assign postImage = "/assets/images/image-default.jpg" -%}
-          <img src="{{- postImage | relative_url -}}" alt="" class="blog-roll-image">
+          <img src="{{- postImage | relative_url -}}" alt="" class="post-image">
         {%- endif -%}
-  
-        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+        <div class="post-content">
+          <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+          <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+        </div>
       </article>
     {% endfor %}
   </div>
