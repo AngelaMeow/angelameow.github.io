@@ -296,6 +296,18 @@ nav {
   }	
 }
 
+.post {
+  entry {
+	img {
+		margin-top: 1.5rem;
+	}
+	p, ul {
+	   	 margin: 1.5rem auto 1rem auto; 
+		  max-width: 720px;
+	  }	  
+  } 
+}
+
 footer {
   padding: 20px 0;
   text-align: center;
