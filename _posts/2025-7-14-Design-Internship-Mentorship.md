@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mentoring program
+title: Mentoring
 excerpt: This is the post excerpt.
 image: ../images/img-mentorship.jpg
 ---
