@@ -19,4 +19,4 @@ During my time at Acklen Avenue I collaborated in the Internship Career Path for
 - *Training material and resources*: We met monthly with the Design Team Leader to refine resources needed and to make sure interns will have eveything for their training. 
 
 
-Additionally, I had also collaborate in the interview process for refining candidates lists for the Design Team. I learned from my peers how to conduct pair designing sessions, and how to create an appropriate environment when conducting the sessions.
+Additionally, I collaborated in the interview process for the Design Team. I learned how to conduct pair design sessions, and how to create an appropriate environment when conducting them.
