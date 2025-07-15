@@ -24,7 +24,7 @@ An option to document and present the process and achievements of the projects. 
 After a couple of initial meetings, and collecting the requirements, we agreed on building the platforms using Wordpress.
 Due to the characteristics of the client and projects we worked a bit more freely, on a bi-weekly basis (synching via e-mail one or two times per week for smaller items), it was challenging at the beginning because we were in the middle of lockdown, but everything worked out as expected. 
 
-The projects we have published included: 
+The projects we have completed: 
 
 #### Improving Infrastructure Strategy 
 Changing Hosting services so that we could have appropriate services for the organization, and customer support that could help non-technical admins with struggles related to backend and hosting. 
