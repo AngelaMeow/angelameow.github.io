@@ -283,16 +283,6 @@ footer {
   text-align: center;
 }
 
-.about-intro {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 3rem;
-}
-
-.about-intro img {
-  box-shadow: 8px 8px 0 rgb(153, 10, 62);
-}
-
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
