@@ -22,8 +22,8 @@ IMG - Illustrations (2col grid)
 
 #### Animalitos feos
 This is my beloved most recent sketching project. It started during a rough season, I was struggling with my mental health, feeling stuck, with impostor syndrome and just burned out. 
-Some day Youtube recommended this video, and it was kind of revealing and refreshing. 
-https://youtu.be/kngc8LXYdkc?si=KP9Q9htg8VRQfEuS
+Some day Youtube recommended [this video](https://youtu.be/kngc8LXYdkc?si=KP9Q9htg8VRQfEuS), and it was kind of revealing and refreshing. 
+
 Maybe it was the voice of the artist, the silly drawings, but something on it made me feel better instantly. And it also inspired me into drawing again. 
 
 It started as an individual drawing exercise. But super quick, after a couple of days it became a more defined goal, and it was to draw “Animalitos feos” for an entire month (on a Mon-Fri basis). 
