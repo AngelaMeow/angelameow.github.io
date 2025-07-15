@@ -278,6 +278,13 @@ nav {
   background-color: $lightGray;
 }
 
+.about-intro {
+  max-width: 720px;
+  h1, p {
+    text-align: center;
+  }
+}
+
 footer {
   padding: 20px 0;
   text-align: center;
