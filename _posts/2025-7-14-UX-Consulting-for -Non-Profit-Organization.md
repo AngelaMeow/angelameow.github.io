@@ -31,7 +31,9 @@ Changing Hosting services so that we could have appropriate services for the org
 
 #### MUA (Institutional Portal) 
 
-IMG - Cover 
+![MUA website](../images/img-mua-web.jpg)
+*MUA Website*
+
 This is the newest project we have been working on (Currently iterating content and pages). The main goal with this is to have a single Parent Portal that can host and present all the information of the programs and initiatives that the organization develops. 
 
 ##### Keeping consistency 
