@@ -2,14 +2,15 @@
 layout: post
 title: UX for Non-Profit Organization
 excerpt: This is the post excerpt.
-image: ../images/img-angela-landscape.png
+image: ../images/img-bienal.jpg
 ---
 
 ### Overview
 
 MUA is a non profit organization in Honduras that works towards promoting culture, arts and education with an inclusive and fair perspective. We had the opportunity to work in the past, they gave me the opportunity to take my professional practice in order to get my Graphic designer degree.
 
-IMG - Bienal Material (Boletin y Hoja) 
+![Artes para 3 Bienal](../images/img-bienal.jpg)
+Boletin para Tercera Bienal
 
 Now that they have reached out for UX/Technical consulting. We have worked together to identify the need and solutions to their current projects. 
 
