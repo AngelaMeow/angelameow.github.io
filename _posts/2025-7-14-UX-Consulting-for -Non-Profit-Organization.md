@@ -62,5 +62,5 @@ The site is still online: [Pakashn.com](https://pakashn.com/) but we are current
 ### Lessons Learned
 
 - Working on a project after they had kicked off it, it’s always challenging. In the case of the Pakas project there were some tools and libraries that were going to be too difficult to change completely (time, budget and effort) and we had to adapt to make it work with what we have at the moment. 
-- Helping with Non-profit cultural/art projects is really refreshing, even tho is behind the scenes just doing the “nerdy” work haha. It makes me feel good. 
-- Adapt my own process to the schedules and resources, and support other people with my technical expertise. On a daily basis (with Software development teams) I am the non-tech-ish person of the group “The Designer”. 
+- Helping with cultural/art projects is really refreshing, even tho my work is done "behind the scenes". It gives a more profound retribution compared to other payed jobs. 
+- Adapting my own process to the schedules and resources was hectic, and support other people with my technical expertise took some time to be shaped well. I was used to be helped by an IT person, but with MUA I am the go-to person for tech related issues. It has pushed me to be up-to-date with processes and tools. 
