@@ -2,12 +2,15 @@
 layout: post
 title: Mentoring program
 excerpt: This is the post excerpt.
-image: ../images/img-angela-landscape.png
+image: ../images/img-mentorship.jpg
 ---
 
 ### Overview
 
 During my time at Acklen Avenue I collaborated in the Internship Career Path for Designers. 
+
+![Meeting with Interns](../images/img-mentorship.jpg)
+*Mentoring-ish*
 
 #### My role as a mentor included:
 
