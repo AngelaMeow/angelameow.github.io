@@ -4,7 +4,9 @@ title: About me
 permalink: /about-me/
 ---
 
-# Contact information
+![alt text](../images/img-angela-landscape.png)
+
+## Contact information
 
 **📧 Email:** [hello@angelato.design](mailto:hello@angelato.design)
 
@@ -12,25 +14,25 @@ permalink: /about-me/
 
 ---
 
-# **👩🏻‍💻** Work experience
+## **👩🏻‍💻** Work experience
 
-## Designer at Moprhe.io
+### Designer at Moprhe.io
 
 Jul 2024 - Present 
 
-## **UX and Wordpress Consultant at MUA: Mujeres en las Artes**
+### **UX and Wordpress Consultant at MUA: Mujeres en las Artes**
 
 Jul 2021 - Present 
 
 UX/UI/Wordpress support for PAKAS and Crearte non-profit organization platforms.
 
-## Visual Designer at Minno
+### Visual Designer at Minno
 
 Jul 2022 - Jun 2024 · 2 years
 
 UI and Frontend support for Minno Platforms and Products.
 
-## Senior Designer at Acklen Avenue
+### Senior Designer at Acklen Avenue
 
 Jun 2018 - May 2022 · 4 years
 
@@ -42,7 +44,7 @@ Some of my responsibilities at AA:
 - Continuously improve my English and Communication skills.
 - Collaborate with developers to build design systems.
 
-## Junior Designer at Acklen Avenue
+### Junior Designer at Acklen Avenue
 
 Dec 2017 - May 2018 · 6 months
 
@@ -50,13 +52,13 @@ Dec 2017 - May 2018 · 6 months
 - Collaborating in the creation of an organization-wide Design System.
 - Being mentor in coding HTML and Sass, and being mentee in Jekyll and Github.
 
-## Freelance UX Consultant
+### Freelance UX Consultant
 
 Apr 2021 - Oct 2021 · 7 mos
 
 Freelance at HeroUnit - An Acklen Avenue Company
 
-## UI Designer at Laureate International Universities
+### UI Designer at Laureate International Universities
 
 Nov 2015 - Nov 2017 · 2 yrs
 
@@ -67,7 +69,7 @@ Nov 2015 - Nov 2017 · 2 yrs
 - Working with stakeholders to steer projects.
 - Improving usability throughout various web properties.
 
-## Junior Designer at Laureate International Universities
+### Junior Designer at Laureate International Universities
 
 Nov 2012 - Nov 2017 · 5 yrs 1 month
 
@@ -76,13 +78,13 @@ Nov 2012 - Nov 2017 · 5 yrs 1 month
 - Designing iconography and logos.
 - Coding prototypes with CSS and HTML.
 
-## **Web Designer**
+### **Web Designer**
 
 Aug 2011 - Oct 2012 · 1 yr 3 mos
 
 Designing web properties for various clients.
 
-## **Freelance Graphic Designer**
+### **Freelance Graphic Designer**
 
 Sep 2010 - Jul 2011 · 11 mos
 
@@ -90,9 +92,9 @@ Worked with various clients, creating strong brands and assets as well as web de
 
 ---
 
-# 📚 Education
+## 📚 Education
 
-## **Bachelor's Degree in Graphic Design**
+### **Bachelor's Degree in Graphic Design**
 
 *2010* 
 
