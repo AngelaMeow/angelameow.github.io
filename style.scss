@@ -288,6 +288,14 @@ nav {
   }
 }
 
+.posts-heading {
+  max-width: 720px;
+  margin: auto;
+  h2, p {
+    text-align: center;
+  }	
+}
+
 footer {
   padding: 20px 0;
   text-align: center;
