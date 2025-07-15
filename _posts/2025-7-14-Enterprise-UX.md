@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Enterprise UX for Organization
+excerpt: This is the post excerpt.
 image: ../images/img-angela-landscape.png
 ---
 
