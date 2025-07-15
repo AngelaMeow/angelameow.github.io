@@ -298,12 +298,12 @@ nav {
 
 .post {
   .entry {
+  	max-width: 780px;
 	img {
 		margin-top: 1.5rem;
 	}
 	p, ul {
-	   	 margin: 1.5rem auto 1rem auto; 
-		  max-width: 720px;
+	   	 margin: 1.5rem auto 1rem auto;	  
 	  }	  
   } 
 }
