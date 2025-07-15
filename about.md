@@ -4,7 +4,7 @@ title: About me
 permalink: /about-me/
 ---
 
-![alt text](../images/img-angela-landscape.png)
+![angela velasquez](../images/img-angela-landscape.png)
 
 ## Contact information
 
