@@ -1,4 +1,11 @@
-### Design Internship Mentorship 
+---
+layout: post
+title: Mentoring program
+excerpt: This is the post excerpt.
+image: ../images/img-angela-landscape.png
+---
+
+### Overview
 
 During my time at Acklen Avenue I collaborated in the Internship Career Path for Designers. 
 
@@ -9,4 +16,4 @@ During my time at Acklen Avenue I collaborated in the Internship Career Path for
 - *Training material and resources*: We met monthly with my Design Team Leader to define what resources we needed and to make sure the interns could have all they needed to keep their training. 
 IMG - My picture in Acklen.
 
-Additionally, I also collaborated in the interview process for the selection of designers. I learned from my peers on how to conduct pair designing sessions and how to create a good and appropriate environment when conducting the sessions.
+Additionally, I had also collaborate in the interview process for refining candidates lists for the Design Team. I learned from my peers how to conduct pair designing sessions, and how to create an appropriate environment when conducting the sessions.
