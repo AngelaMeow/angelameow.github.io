@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Visual Design Projects
+excerpt: This is the post excerpt.
 image: ../images/img-angela-landscape.png
 ---
 
