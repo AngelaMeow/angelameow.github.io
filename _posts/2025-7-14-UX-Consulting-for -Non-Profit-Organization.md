@@ -39,14 +39,14 @@ This is the newest project we have been working on (Currently iterating content 
 ##### Keeping consistency 
 The second goal was translating their Styleguide into a Design System and Wordpress Theme. To have officially a new custom theme that represents their identity and goes in line with their brand communication. 
 
-IMGs - MUA 
 
 ##### Documenting process 
 The other big part of the deliverables was an entire library of step by step tutorials for the Wordpress Site. The organization works with volunteers and a lot of them or even their employees don’t have experience working with CMS or websites. So having these type of resources is useful for them while they get familiar with the interfaces. 
 
-IMG - LOOM
+![Video tutorials](../images/img-mua-tutorials.jpg)
+*Preparing step by step tutorials for the person in charge of updating content*
 
-[Visit their website](https://muahn.com/)
+[Visit the website](https://muahn.com/)
 
 
 #### Pakas
