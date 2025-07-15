@@ -3,7 +3,7 @@ layout: page
 title: About me
 permalink: /about-me/
 ---
-I'm Angela, a Honduran UX/UI and Visual Designer based in Spain, with over 7 years of experience in the software industry.
+I'm Angela, a Honduran Graphic and UI Designer based in Spain, with over 7 years of experience in the software development field.
 
 ![angela velasquez](../images/img-angela-landscape.png)
 
