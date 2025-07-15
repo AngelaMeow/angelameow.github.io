@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Enterprise UX for Organization
+image: ../images/img-angela-landscape.png
 ---
 
 ### Overview
