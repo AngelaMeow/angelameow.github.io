@@ -53,9 +53,10 @@ The other big part of the deliverables was an entire library of step by step tut
 This was a pre-existing Wordpress site, before we started our engagement. During 2020’s lockdown they launched some online resources, such as workshops and video tutorials in collaboration with local artists, oriented to people interested in arts and culture. They needed to build a portal to formalize the project and get funding. But the tools and infrastructure defined at the moment were not scalable. 
 
 That’s when we started analysing, planning and developing their new platforms.
-The site is still online: https://pakashn.com/ but we are currently migrating and consolidating all the MUA projects and initiatives under: their new institutional site: https://muahn.com/
+The site is still online: [Pakashn.com](https://pakashn.com/) but we are currently migrating and consolidating all of the MUA programs and initiatives under their new institutional site: [MUAhn.com](https://muahn.com/)
 
-IMG - Pakas
+![Legacy Pakas Website](../images/img-mua-pakas.jpg)
+*It was a great tool and platform for artists, specially during 2020.*
 
 
 ### Lessons Learned
