@@ -12,10 +12,13 @@ layout: default
       <article class="post">
   
         <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-  
-        <div class="entry">
-          {{ post.excerpt }}
-        </div>
+
+        {%- if post.image -%}
+          <img src="{{- post.image | relative_url -}}" alt="" class="blog-roll-image">
+        {%- else -%}
+          {%- assign postImage = "/assets/images/image-default.jpg" -%}
+          <img src="{{- postImage | relative_url -}}" alt="" class="blog-roll-image">
+        {%- endif -%}
   
         <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
       </article>
