@@ -7,24 +7,24 @@ image: ../images/img-bienal.jpg
 
 ### Overview
 
-MUA is a non profit organization in Honduras that works towards promoting culture, arts and education with an inclusive and fair perspective. We had the opportunity to work in the past, they gave me the opportunity to take my professional practice in order to get my Graphic designer degree.
+MUA is a non profit organization in Honduras that works towards promoting culture, arts and education with an inclusive and fair perspective. We had the chance to work in the past, they gave me the opportunity to take my professional practice in order to get my degree in Graphic design.
 
 ![Artes para 3 Bienal](../images/img-bienal.jpg)
 Boletin para Tercera Bienal
 
-Now that they have reached out for UX/Technical consulting. We have worked together to identify the need and solutions to their current projects. 
+Later on they reached out for UX/Technical consulting. And we agreed to work together identifying the needs and solutions regarding digital platforms and communication. 
 
 They have developed a few new local programs to promote culture and create spaces. What we discover during the first consultation was: 
 
-A solution to create and maintain online portals/sites that was easy to use for any person in the organization. The ideal scenario was to find a tool that didn’t require advanced technical skills, other than regular computer and internet usage. 
-An option to document and present the process and achievements of the projects. Due to the amount of work, reports, resources and material we needed a feasible solution to “host” all that media. 
+- There was a need to create and maintain online portals/sites that were easy to use for any person in the organization. The ideal scenario was to find a tool that didn’t require advanced technical skills, other than normal computer and internet expertise. 
+- An option to document and present the process and achievements of the programs. Due to the amount of work, reports, resources and material we needed a feasible solution to “host” all that media. 
 
 
 ### The soultion & My role
 After a couple of initial meetings, and collecting the requirements, we agreed on building the platforms using Wordpress.
-Due to the characteristics of the client and projects we worked a bit more freely, on a bi-weekly basis (synching via e-mail one or two times per week for smaller items), it was challenging at the beginning because we were in the middle of lockdown, but everything worked out as expected. 
+Due to the characteristics of the client and project we worked more freely, synching and reviewing on a bi-weekly basis, and via e-mail one or two times per week for smaller items. It was challenging at the beginning, considering we were in the middle of lockdown, but everything worked out as expected. 
 
-The projects we have completed: 
+These are some of the outcomes: 
 
 #### Improving Infrastructure Strategy 
 Changing Hosting services so that we could have appropriate services for the organization, and customer support that could help non-technical admins with struggles related to backend and hosting. 
@@ -34,14 +34,14 @@ Changing Hosting services so that we could have appropriate services for the org
 ![MUA website](../images/img-mua-web.jpg)
 *MUA Website*
 
-This is the newest project we have been working on (Currently iterating content and pages). The main goal with this is to have a single Parent Portal that can host and present all the information of the programs and initiatives that the organization develops. 
+This is the newest project we have been working on (still in progress, but online already!). The main goal with this site is to have a single Parent Platform that can contain  all the information of the programs and initiatives that the organization develops. 
 
 ##### Keeping consistency 
-The second goal was translating their Styleguide into a Design System and Wordpress Theme. To have officially a new custom theme that represents their identity and goes in line with their brand communication. 
+The second goal was translating their Styleguide into a Design System for Wordpress. To have officially a new custom theme that goes in line with their identity and branding communication. 
 
 
 ##### Documenting process 
-The other big part of the deliverables was an entire library of step by step tutorials for the Wordpress Site. The organization works with volunteers and a lot of them or even their employees don’t have experience working with CMS or websites. So having these type of resources is useful for them while they get familiar with the interfaces. 
+The other big part of the deliverables was an entire library of step by step tutorials for the Wordpress Site. The organization works with volunteers and usually they and the employees don’t have previous experience working with CMS and/or websites. So providing with the library of resources allows them to work efficiently and learn quickly. 
 
 ![Video tutorials](../images/img-mua-tutorials.jpg)
 *Preparing step by step tutorials for the person in charge of updating content*
@@ -50,9 +50,9 @@ The other big part of the deliverables was an entire library of step by step tut
 
 
 #### Pakas
-This was a pre-existing Wordpress site, before we started our engagement. During 2020’s lockdown they launched some online resources, such as workshops and video tutorials in collaboration with local artists, oriented to people interested in arts and culture. They needed to build a portal to formalize the project and get funding. But the tools and infrastructure defined at the moment were not scalable. 
+This was a pre-existing Wordpress site, before we started our engagement. During 2020’s lockdown they launched online resources such as workshops and video tutorials in collaboration with local artists. The resources were oriented to the public in general, not only to the ones interested in arts and culture. So, the organization needed their own portal to get funding. The tools and infrastructure used originally were not scalable, so that's when we started to work together. 
 
-That’s when we started analysing, planning and developing their new platforms.
+After planning and developing their new platform. We migrated the site and improve the entire theme. 
 The site is still online: [Pakashn.com](https://pakashn.com/) but we are currently migrating and consolidating all of the MUA programs and initiatives under their new institutional site: [MUAhn.com](https://muahn.com/)
 
 ![Legacy Pakas Website](../images/img-mua-pakas.jpg)
