@@ -21,6 +21,9 @@ We worked under the Agile methodology:
 #### Discovery
 There was a discovery session at the beginning of the engagement, and a few follow-up discovery sessions after the first launch. It took place in the first two weeks of the Engagement. 
 
+![Discovery](../images/img-discovery.jpg)
+*Discovery sessions were facilitated in person*
+
 #### Definition 
 The definition was the extraction of the business and user requirements and Epics to have as a base for the creation of users stories to develop
 
