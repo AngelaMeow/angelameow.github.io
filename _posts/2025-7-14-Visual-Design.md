@@ -18,7 +18,7 @@ During my work at Acklen Avenue, I collaborated on a few internal assets, These 
 
 
 #### Prizes for Christmas contest 
-During my work at Laureate we had a pretty good culture in the Technology Team. We came up with this tradition for Christmas where we gathered votes with a poll for different funny categories. I hope none of the Categories feel awkward haha, I apologize in advance for that. 
+During my work at Laureate we came up with a tradition for Christmas, a contest for funny categories. Thw prizes were keychains with the category character, as a trophy. 
 
 IMG - Illustrations (2col grid) 
 
