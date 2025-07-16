@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Enterprise UX for Organization
-excerpt: This is the post excerpt.
+excerpt: I collaborated with a Agile team as a UX/UI designer. We mostly worked Enterprise UX for their internal usage.
 image: ../images/img-calvert-cover.jpg
 ---
 
