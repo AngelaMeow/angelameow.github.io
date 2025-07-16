@@ -17,13 +17,6 @@ During my work at Acklen Avenue, I collaborated on a few internal assets, These 
 *Some of the collaborators, including me*
 
 
-#### Prizes for Christmas contest 
-During my work at Laureate we came up with a tradition for Christmas, a contest for funny categories. Thw prizes were keychains with the category character, as a trophy. 
-
-![Illustrations for contest](../images/img-illustration-prizes.jpg)
-*No comments*
-
-
 #### Animalitos feos
 This is my beloved most recent sketching project. It started during a rough season, I was struggling with my mental health, feeling stuck, with impostor syndrome and just burned out. 
 Some day Youtube recommended [this video](https://youtu.be/kngc8LXYdkc?si=KP9Q9htg8VRQfEuS), and it was kind of revealing and refreshing. 
@@ -33,21 +26,38 @@ Maybe it was the voice of the artist, the silly drawings, but something on it ma
 It started as an individual drawing exercise. But super quick, after a couple of days it became a more defined goal, and it was to draw “Animalitos feos” for an entire month (on a Mon-Fri basis). 
 I invited a friend of mine to join me in this silly-weird challenge and she accepted. 
 
-IMG - Illustrations (2col grid + info)
+
+![Illustrations for contest](../images/img-illustration-animalitos.jpg)
+*Initital silly drawings*
+
 We picked an animal per day. And I didn’t want to put too much pressure on myself and I drew mostly with graphite and without adding many colors. Trying to draw the most silly and ugly animals that I could. It was so much fun. I felt sorry for some of them. 
 
 We had so much fun, here are the best results turned into stickers afterward:  
 
-IMG - All Stickers Illustrations (2col grid) 
+![Illustrations for contest](../images/img-illustration-animalitos-2.jpg)
+*Stickers and riso print*
 
 #### Bonus: Fingerprint Icon Lau 
-Last but not least, again for Laureate International Universities, I created this little fella. It was actually an Icon for a User Portal for Students. Where they were able to manage all of their personal and identification information. 
+For Laureate International Universities I designed this fingerprint icon. It was used on a Portal for Students, where user were able to manage all of their personal and identification information, something like a digital student passport. 
+
+![Fingerprint Icon](../images/img-fingerprint.jpg)
+
+#### Prizes for Christmas contest 
+During my work at Laureate we came up with a tradition for Christmas, a contest for funny categories. Thw prizes were keychains with the category character, as a trophy. 
+
+![Illustrations for contest](../images/img-illustration-prizes.jpg)
+*No comments*
 
 
-### Branding Collaborations 
+
+### Branding 
 
 ##### Lluvia de Gatos
-IMG - LOgo + Sello 
+
+![Luvia de gatos logo](../images/img-lluvia-de-gatos.jpg)
+*Lluvia de gatos is a Brand for a bookbinding artist*
 
 #### Lynx Labs
-IMG - Logo + Enlace sitio 
+
+![Lynx logo](../images/img-lynx.jpg)
+*Lynx Labs Branding*
