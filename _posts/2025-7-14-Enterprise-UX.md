@@ -2,14 +2,14 @@
 layout: post
 title: Enterprise UX for Organization
 excerpt: This is the post excerpt.
-image: ../images/img-calvert-cover.png
+image: ../images/img-calvert-cover.jpg
 ---
 
 ### Overview
 
 Calvert Impact Capital is a non-profit in the Financial Industry. I collaborated with a complete team as a UX/UI designer, when I worked at a Software Development Company. We were doing Enterprise UX for their organization Platform.
 
-![Calvert Impact Capital Admin Portal](../images/img-calvert-cover.png)
+![Calvert Impact Capital Admin Portal](../images/img-calvert-cover.jpg)
 *Calvert Impact Capital admin UI*
 
 ### My Role
