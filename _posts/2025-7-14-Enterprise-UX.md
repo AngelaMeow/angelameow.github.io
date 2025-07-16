@@ -29,7 +29,7 @@ A loop of Planning, Designing and Developing, and finally Testing. And repeating
 
 #### Handoff
 The official transfer of all the work, documentation and any other asset created during the project. 
-![Acklen Avenue Workflow Graphic](https://acklenavenue.com/wp-content/uploads/2025/03/agile-teams-process-1400x593.png))
+![Acklen Avenue Workflow Graphic](https://acklenavenue.com/wp-content/uploads/2025/03/agile-teams-process-1400x593.png)
 *Agile Team process*
 
 ### Lessons Learned 
