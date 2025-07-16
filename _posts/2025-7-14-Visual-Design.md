@@ -11,7 +11,7 @@ During my free time and as part of working my creative side I try to draw and il
 #### Workshop Illustrations
 During my work at Acklen Avenue, I collaborated on a few internal assets, These were a collection of illustrations used for a workshop on a Camp session. We discussed the topic and the slides with my Engagement Manager, and this was the result: 
 
-![Illustrations for workshop: Various people](../images/img-illustration-workshop.jpg)
+![Illustrations for workshop: Various people](../images/img-illustration-workshop-1.jpg)
 *Illustrations to explain different aspects of culture and communication*
 ![Illustrations for workshop: The collaborators](../images/img-illustration-workshop-2.jpg)
 *Some of the collaborators, including me*
