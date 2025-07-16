@@ -40,7 +40,7 @@ We had so much fun, here are the best results turned into stickers afterward:
 #### Bonus: Fingerprint Icon Lau 
 For Laureate International Universities I designed this fingerprint icon. It was used on a Portal for Students, where user were able to manage all of their personal and identification information, something like a digital student passport. 
 
-![Fingerprint Icon](../images/img-fingerprint.jpg)
+![Fingerprint Icon](../images/img-figerprint.jpg)
 
 #### Prizes for Christmas contest 
 During my work at Laureate we came up with a tradition for Christmas, a contest for funny categories. Thw prizes were keychains with the category character, as a trophy. 
