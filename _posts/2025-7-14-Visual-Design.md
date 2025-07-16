@@ -20,7 +20,8 @@ During my work at Acklen Avenue, I collaborated on a few internal assets, These 
 #### Prizes for Christmas contest 
 During my work at Laureate we came up with a tradition for Christmas, a contest for funny categories. Thw prizes were keychains with the category character, as a trophy. 
 
-IMG - Illustrations (2col grid) 
+![Illustrations for contest](../images/img-illustration-prizes.jpg)
+*No comments*
 
 
 #### Animalitos feos
