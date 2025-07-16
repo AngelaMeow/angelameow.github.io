@@ -53,6 +53,6 @@ The documentation part was also a big chunk of effort. Documenting the theme str
 
 Through the projects, we encounter challenges and even after some iterations: 
 
-- In Spanish we have a saying *“Más vale malo conocido que bueno por conocer”* in English it would be something like “Better the bad you know than the good you don't” - please write me a message with a more accurate option or if there’s a real version, and back to the topic I’m referring to Drag and Drop editor Tools haha, In this case Elementor is the Bad that we know and Thrive editor the Good to know.
 - Working with Start-ups is a unique experience, You have to be open minded for constant changes in OKRs and priorities, as on the overall business level. 
-- Collaborating with teams other than technology is always hectic, but also efficient for achieving business goals. 
+- Collaborating with teams other than technology is always hectic, but also efficient for achieving business goals.
+- In Spanish we have a saying *“Más vale malo conocido que bueno por conocer”* in English it would be something like “Better the bad you know than the good you don't”, and I'm talking about Drag and Drop editor Tools. Elementor is the Bad that we know and Thrive editor the Good to know. Selecting plugins and tools for wordpress can be tricky, sometimes more than looking at reviews and how well supported it is, time will give you the answers.
