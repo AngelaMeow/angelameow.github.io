@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Visual Design Projects
-excerpt: This is the post excerpt.
+excerpt: A collection of Illustrations, mostly personal projects I have worked on so far. 
 image: ../images/img-illustration-workshop-2.jpg
 ---
 
