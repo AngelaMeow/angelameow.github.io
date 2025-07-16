@@ -2,7 +2,7 @@
 layout: post
 title: Revamping Websites for Start Ups 
 excerpt: This is the post excerpt.
-image: ../images/img-angela-landscape.png
+image: ../images/img-wordpress-wireframe-ss.jpg
 ---
 
 ### Overview and Issue
@@ -19,7 +19,11 @@ They needed to adapt to their branding. We integrated the branding, the visuals 
 All of this, while trying to keep up with the Enterprise UX for the editors feasible, who already had experience updating content and blogs. 
 Scalability for new features, plugins, team members working with them. 
 
-IMG - Theme (Screens) 
+![SS Wireframes](../images/img-wordpress-wireframe-ss.jpg)
+*Wireframes for mobile*
+
+![Minno Wireframes](../images/img-wordpress-wireframe-minno.jpg)
+*Wireframes for desktop*
 
 
 ### Methodology
@@ -38,9 +42,10 @@ A loop of Planning, Designing and Developing, and finally Testing. And repeating
 #### Launch + Handoff
 The official installation of the theme work, documentation and any notes and training delivered.
 
-The result was a new theme launched and installed in the Public sites. We also worked closely with Product, Content and Marketing teams to set up the tool and plugin for A/B testing, SEO, and Analytics for optimization. 
+![](../images/img-process-morphe.jpg)
+*Agile-data adapted process*
 
-IMG - AB testing options + VWO 
+The result was a new theme launched and installed in the Public sites. We also worked closely with Product, Content and Marketing teams to set up the tool and plugin for A/B testing, SEO, and Analytics for optimization. 
 
 The documentation part was also a big chunk of effort. Documenting the theme structure (owned by the company) and also the wordpress process (tutorials and steps for new editors). 
 
