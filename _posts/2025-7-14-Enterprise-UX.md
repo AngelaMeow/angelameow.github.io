@@ -2,12 +2,15 @@
 layout: post
 title: Enterprise UX for Organization
 excerpt: This is the post excerpt.
-image: ../images/img-angela-landscape.png
+image: ../images/img-calvert-cover.png
 ---
 
 ### Overview
 
 Calvert Impact Capital is a non-profit in the Financial Industry. I collaborated with a complete team as a UX/UI designer, when I worked at a Software Development Company. We were doing Enterprise UX for their organization Platform.
+
+![Calvert Impact Capital Admin Portal](../images/img-calvert-cover.png)
+*Calvert Impact Capital admin UI*
 
 ### My Role
 The goal was to deliver a user friendly platform that allowed different user roles (Advisors, Investors and Admins) to manage information and transactions. We launched the project after a few months of development, and we maintain the engagement for iterations a couple of months after. My role was as a support designer at the beginning, and then I transitioned to lead designer of the team. 
@@ -26,6 +29,8 @@ A loop of Planning, Designing and Developing, and finally Testing. And repeating
 
 #### Handoff
 The official transfer of all the work, documentation and any other asset created during the project. 
+![Acklen Avenue Workflow Graphic](https://acklenavenue.com/wp-content/uploads/2025/03/agile-teams-process-1400x593.png))
+*Agile Team process*
 
 ### Lessons Learned 
 - Enterprise UX has different challenges, more specific and niche problems to solve, compared to designing an interface that will be used by regular customers. People are used to doing their work in a certain way, they don’t want to be “engaged” with the product, but rather do things correctly and efficiently. 
