@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Revamping Websites for Start Ups 
-excerpt: This is the post excerpt.
+excerpt: CMS solutions designed and implemented for clients.To empower them with tools easy to use for customization and scalability. 
 image: ../images/img-wordpress-wireframe-ss.jpg
 ---
 
