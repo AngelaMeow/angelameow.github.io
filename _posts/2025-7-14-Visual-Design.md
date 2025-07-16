@@ -5,6 +5,20 @@ excerpt: A collection of Illustrations, mostly personal projects I have worked o
 image: ../images/img-illustration-workshop-2.jpg
 ---
 
+
+### Branding 
+
+##### Lluvia de Gatos
+
+![Luvia de gatos logo](../images/img-lluvia-de-gatos.jpg)
+*Lluvia de gatos is a Brand for a bookbinding artist*
+
+#### Lynx Labs
+
+![Lynx logo](../images/img-lynx.jpg)
+*Lynx Labs Branding*
+
+
 ### Illustration
 During my free time and as part of working my creative side I try to draw and illustrate whenever I can. Sometimes it is not as often as I would like but here is a selection of fun personal projects I have worked on so far. 
 
@@ -46,18 +60,4 @@ For Laureate International Universities I designed this fingerprint icon. It was
 During my work at Laureate we came up with a tradition for Christmas, a contest for funny categories. Thw prizes were keychains with the category character, as a trophy. 
 
 ![Illustrations for contest](../images/img-illustration-prizes.jpg)
-*No comments*
 
-
-
-### Branding 
-
-##### Lluvia de Gatos
-
-![Luvia de gatos logo](../images/img-lluvia-de-gatos.jpg)
-*Lluvia de gatos is a Brand for a bookbinding artist*
-
-#### Lynx Labs
-
-![Lynx logo](../images/img-lynx.jpg)
-*Lynx Labs Branding*
