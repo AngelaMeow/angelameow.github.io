@@ -32,21 +32,18 @@ During my work at Acklen Avenue, I collaborated on a few internal assets, These 
 
 
 #### Animalitos feos
-This is my beloved most recent sketching project. It started during a rough season, I was struggling with my mental health, feeling stuck, with impostor syndrome and just burned out. 
-Some day Youtube recommended [this video](https://youtu.be/kngc8LXYdkc?si=KP9Q9htg8VRQfEuS), and it was kind of revealing and refreshing. 
+This is my most recent sketching project. It started randomly when Youtube recommended me [this video](https://youtu.be/kngc8LXYdkc?si=KP9Q9htg8VRQfEuS), and it was instantly revealing and refreshing. Maybe it was the voice of the artist, the silly drawings; something on it made me feel inspired to draw animals.
 
-Maybe it was the voice of the artist, the silly drawings, but something on it made me feel better instantly. And it also inspired me into drawing again. 
-
-It started as an individual drawing exercise. But super quick, after a couple of days it became a more defined goal, and it was to draw “Animalitos feos” for an entire month (on a Mon-Fri basis). 
-I invited a friend of mine to join me in this silly-weird challenge and she accepted. 
+It started as an individual creative explorative exercise. But quickly, after a couple of days it became a more defined goal: to draw “Animalitos feos” for an entire month (on a Mon-Fri basis). 
+I invited a friend to join me in this silly challenge and she accepted. We had so much fun.
 
 
 ![Illustrations for contest](../images/img-illustration-animalitos.jpg)
-*Initital silly drawings*
+*Silly drawings*
 
-We picked an animal per day. And I didn’t want to put too much pressure on myself and I drew mostly with graphite and without adding many colors. Trying to draw the most silly and ugly animals that I could. It was so much fun. I felt sorry for some of them. 
+We picked an animal per day. I didn’t want to put too much pressure on myself and enjoy the process, so I drew mostly with graphite o a sketchbook. The main idea was to draw the most silly, quirky and ugly-ish animals. 
 
-We had so much fun, here are the best results turned into stickers afterward:  
+Here are the favorites, turned into stickers afterwards:  
 
 ![Illustrations for contest](../images/img-illustration-animalitos-2.jpg)
 *Stickers and riso print*
