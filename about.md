@@ -20,7 +20,7 @@ Here you can explore a selected collection of my work:
 
 ## **👩🏻‍💻** Work experience
 
-### Designer at Moprhe.io
+### Designer at Morphe
 
 Jul 2024 - Present 
 
