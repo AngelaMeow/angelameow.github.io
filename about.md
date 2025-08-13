@@ -3,12 +3,12 @@ layout: page
 title: About me
 permalink: /about-me/
 ---
-I'm Angela, a Honduran Graphic and UI Designer based in Spain, with over 7 years of experience in the software development field.
+I'm Angela, UI and Graphic Designer from Honduras currently based in Spain, with over 7 years of experience.
 
 ![angela velasquez](../images/img-angela-landscape.png)
 
-For the past 6 years, I’ve worked as a UI Designer within product and development teams. I’ve also contributed as a UX consultant, helped define design systems, and supported product exploration for MVPs. Additionally, I have solid experience with WordPress—both theme customization and custom builds—and styling front-end frameworks. This technical skillset allows me to collaborate closely with developers and ensure smooth design-to-development integrations.
-Here you can explore a selected collection of my work: 
+
+I’ve worked as a UI Designer within product and development teams. I’ve also contributed as a UX consultant defining design systems, and supporting product definition for MVPs. Additionally, I have solid experience with WordPress theme customization and custom builds, styling front-end frameworks. This technical skillset allows me to collaborate closely with developers and ensure smooth and eficient implementations.
 
 ## Contact information
 
