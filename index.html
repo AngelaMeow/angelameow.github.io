@@ -7,50 +7,34 @@ layout: default
       <p> I'm currently based in Spain, with over 7 years of experience in the software development field.</p>
   </div>
 
-{% for tag in sorted_tags %}
-  <div id="{{ tag[0] }} class="posts-heading">
-    <h2>{{ tag[0] | downcase }}</h2>
-  </div>
-  <div class="posts">
-    {% for post in tag[1] %}   
-          <article class="post">
-            {%- if post.image -%}
-              <img src="{{- post.image | relative_url -}}" alt="" class="post-image">
-            {%- else -%}
-              {%- assign postImage = "/assets/images/image-default.jpg" -%}
-              <img src="{{- postImage | relative_url -}}" alt="" class="post-image">
-            {%- endif -%}
-            <div class="post-content">
-              <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-              <p>{{ post.excerpt }}</p>
-              <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-            </div>
-          </article>  
-    {% endfor %}
-   </div>
-{% endfor %}
- 
-
-  <div class="posts-heading">
-    <h2>Graphic Design Projects</h2>
-    <p>Other visual design projects that I have to share.</p>
-  </div>
-  <div class="posts">
-    {% for post in site.posts %}
-      <article class="post">
+  <medium>
+  {% assign sorted_tags = site.tags | sort %}`
+  {% for tag in sorted_tags %}
+  <a href="#{{ tag[0] }}" style="background-color: #e0e0e0;">{{ tag[0] | downcase }}</a>  
+  {% endfor %}
+  <medium>
   
-        {%- if post.image -%}
-          <img src="{{- post.image | relative_url -}}" alt="" class="post-image">
-        {%- else -%}
-          {%- assign postImage = "/assets/images/image-default.jpg" -%}
-          <img src="{{- postImage | relative_url -}}" alt="" class="post-image">
-        {%- endif -%}
-        <div class="post-content">
-          <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-          <p>{{ post.excerpt }}</p>
-          <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-        </div>
-      </article>
-    {% endfor %}
-  </div>
+  {% for tag in sorted_tags %}
+    <div id="{{ tag[0] }} class="posts-heading">
+      <h2>{{ tag[0] | downcase }}</h2>
+    </div>
+    <div class="posts">
+      {% for post in tag[1] %}   
+            <article class="post">
+              {%- if post.image -%}
+                <img src="{{- post.image | relative_url -}}" alt="" class="post-image">
+              {%- else -%}
+                {%- assign postImage = "/assets/images/image-default.jpg" -%}
+                <img src="{{- postImage | relative_url -}}" alt="" class="post-image">
+              {%- endif -%}
+              <div class="post-content">
+                <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+                <p>{{ post.excerpt }}</p>
+                <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+              </div>
+            </article>  
+      {% endfor %}
+     </div>
+  {% endfor %}
+ 
 </div>
