@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Mentoring
+tag: ui-design
 excerpt: This is the post excerpt.
 image: ../images/img-mentorship.jpg
 ---
