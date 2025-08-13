@@ -7,6 +7,13 @@ layout: default
       <p> I'm currently based in Spain, with over 7 years of experience in the software development field.</p>
   </div>
 
+  <medium>
+  {% assign sorted_tags = site.tags | sort %}`
+  {% for tag in sorted_tags %}
+  <a href="#{{ tag[0] }}" style="background-color: #e0e0e0;">{{ tag[0] | downcase }}</a>  
+  {% endfor %}
+  <medium>
+
   <div class="posts-heading">
     <h2>UX/UI Projects</h2>
     <p>Take a look the things I do, my learnings, and more details about the projects I have selected. The following information presented to you is not only my effort, but the result of findings as a teamwork with Stakeholders and Partners.</p>
