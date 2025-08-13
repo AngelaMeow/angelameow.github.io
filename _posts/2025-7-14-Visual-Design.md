@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Grphic Design Projects
+title: Graphic Design Projects
 tag: Graphic Design
 excerpt: A collection of Illustrations, mostly personal projects I have worked on so far. 
 image: ../images/img-lluvia-de-gatos.jpg
