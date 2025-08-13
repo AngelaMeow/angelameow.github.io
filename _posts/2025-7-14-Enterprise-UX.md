@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Enterprise UX for Organization
-tag: ui-design
+tag: UI design
 excerpt: I collaborated with a Agile team as a UX/UI designer. We mostly worked Enterprise UX for their internal usage.
 image: ../images/img-calvert-cover.jpg
 ---
