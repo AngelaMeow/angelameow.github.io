@@ -14,6 +14,14 @@ layout: default
   {% endfor %}
   <medium>
 
+  {% for tag in sorted_tags %}
+  <div id="{{ tag[0] }}" ><h2>{{ tag[0] | downcase }}</h2></div>
+  {% for post in tag[1] %}
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <span class="date">{{ post.date | date: "%B %-d, %Y"  }}</span>
+  {% endfor %}
+{% endfor %}
+
   <div class="posts-heading">
     <h2>UX/UI Projects</h2>
     <p>Take a look the things I do, my learnings, and more details about the projects I have selected. The following information presented to you is not only my effort, but the result of findings as a teamwork with Stakeholders and Partners.</p>
