@@ -1,6 +1,7 @@
 ---
 layout: post
 title: UX for Non-Profit Organization
+tag: ui-design
 excerpt: MUA is a non profit organization in Honduras that works towards promoting culture, arts and education with an inclusive and fair perspective. Explore how we worked together for the development and maintenance of their portals.
 image: ../images/img-bienal.jpg
 ---
