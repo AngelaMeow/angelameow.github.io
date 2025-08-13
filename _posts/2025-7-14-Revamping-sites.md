@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Revamping Websites for Start Ups 
+tag: ui-design
 excerpt: CMS solutions designed and implemented for clients.To empower them with tools easy to use for customization and scalability. 
 image: ../images/img-wordpress-wireframe-ss.jpg
 ---
