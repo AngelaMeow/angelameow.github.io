@@ -3,7 +3,7 @@ layout: post
 title: Visual Design Projects
 tag: graphic
 excerpt: A collection of Illustrations, mostly personal projects I have worked on so far. 
-image: ../images/img-illustration-figerprint.jpg
+image: ../images/img-lluvia-de-gatos.jpg
 ---
 
 
