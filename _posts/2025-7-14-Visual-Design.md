@@ -3,7 +3,7 @@ layout: post
 title: Visual Design Projects
 tag: graphic
 excerpt: A collection of Illustrations, mostly personal projects I have worked on so far. 
-image: ../images/img-illustration-workshop-2.jpg
+image: ../images/img-illustration-figerprint.jpg
 ---
 
 
@@ -11,7 +11,7 @@ image: ../images/img-illustration-workshop-2.jpg
 
 ##### Lluvia de Gatos
 
-![Luvia de gatos logo](../images/img-figerprint.jpg)
+![Luvia de gatos logo](../images/img-lluvia-de-gatos.jpg)
 *Lluvia de gatos is a Brand for a bookbinding artist*
 
 #### Lynx Labs
