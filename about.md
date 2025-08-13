@@ -36,63 +36,36 @@ Jul 2022 - Jun 2024 · 2 years
 
 UI and Frontend support for Minno Platforms and Products.
 
-### Senior Designer at Acklen Avenue
+### Designer at Acklen Avenue
 
-Jun 2018 - May 2022 · 4 years
+_Senior_ from Jun 2018 - May 2022 · 4 years
+_Junior_ from Dec 2017 - May 2018 · 6 months
+_Freelance Contractor_ Apr 2021 - Oct 2021 · 7 mos 
 
-Some of my responsibilities at AA:
+Some of my responsibilities included:
 
 - Collaborate with stakeholders in design discoveries to define scope of MVP.
 - Design Wireframes and Prototypes for products.
+- Collaborating in the creation of organization-wide Design Systems.
 - Mentor Junior Designers and work closely to improve various aspects of the design team.
-- Continuously improve my English and Communication skills.
-- Collaborate with developers to build design systems.
 
-### Junior Designer at Acklen Avenue
-
-Dec 2017 - May 2018 · 6 months
-
-- Designing user interfaces for clients.
-- Collaborating in the creation of an organization-wide Design System.
-- Being mentor in coding HTML and Sass, and being mentee in Jekyll and Github.
-
-### Freelance UX Consultant
-
-Apr 2021 - Oct 2021 · 7 mos
-
-Freelance at HeroUnit - An Acklen Avenue Company
 
 ### UI Designer at Laureate International Universities
 
-Nov 2015 - Nov 2017 · 2 yrs
+_UI specialist_ from Nov 2015 - Nov 2017 · 2 yrs
+_Junior_ from Nov 2012 - Nov 2015 · 3 yrs
 
 - Developing corporate design guidelines.
 - Creating an organization-wide CSS components framework.
 - Designing various public and internal sites.
-- Coding prototypes with CSS and HTML.
 - Working with stakeholders to steer projects.
-- Improving usability throughout various web properties.
 
-### Junior Designer at Laureate International Universities
 
-Nov 2012 - Nov 2017 · 5 yrs 1 month
+### **Web Designer at Prempter**
 
-- Designing web properties for various clients.
-- Designing various public and internal sites.
-- Designing iconography and logos.
-- Coding prototypes with CSS and HTML.
-
-### **Web Designer**
-
-Aug 2011 - Oct 2012 · 1 yr 3 mos
+Aug 2011 - Oct 2012 · 1 yr 
 
 Designing web properties for various clients.
-
-### **Freelance Graphic Designer**
-
-Sep 2010 - Jul 2011 · 11 mos
-
-Worked with various clients, creating strong brands and assets as well as web designs.
 
 ---
 
