@@ -8,8 +8,32 @@ layout: default
   </div>
 
   <div class="posts-heading">
-    <h2>My Projects</h2>
+    <h2>UX/UI Projects</h2>
     <p>Take a look the things I do, my learnings, and more details about the projects I have selected. The following information presented to you is not only my effort, but the result of findings as a teamwork with Stakeholders and Partners.</p>
+  </div>
+  <div class="posts">
+    {% for tag in site.tags %}
+        {% for post in tag[1] %}
+          <article class="post">
+            {%- if post.image -%}
+              <img src="{{- post.image | relative_url -}}" alt="" class="post-image">
+            {%- else -%}
+              {%- assign postImage = "/assets/images/image-default.jpg" -%}
+              <img src="{{- postImage | relative_url -}}" alt="" class="post-image">
+            {%- endif -%}
+            <div class="post-content">
+              <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+              <p>{{ post.excerpt }}</p>
+              <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+            </div>
+          </article>
+        {% endfor %}
+    {% endfor %}
+  </div>
+
+  <div class="posts-heading">
+    <h2>Graphic Design Projects</h2>
+    <p>Other visual design projects that I have to share.</p>
   </div>
   <div class="posts">
     {% for post in site.posts %}
