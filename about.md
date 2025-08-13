@@ -39,7 +39,9 @@ UI and Frontend support for Minno Platforms and Products.
 ### Designer at Acklen Avenue
 
 _Senior_ from Jun 2018 - May 2022 · 4 years
+
 _Junior_ from Dec 2017 - May 2018 · 6 months
+
 _Freelance Contractor_ Apr 2021 - Oct 2021 · 7 mos 
 
 Some of my responsibilities included:
@@ -53,6 +55,7 @@ Some of my responsibilities included:
 ### UI Designer at Laureate International Universities
 
 _UI specialist_ from Nov 2015 - Nov 2017 · 2 yrs
+
 _Junior_ from Nov 2012 - Nov 2015 · 3 yrs
 
 - Developing corporate design guidelines.
@@ -60,12 +63,6 @@ _Junior_ from Nov 2012 - Nov 2015 · 3 yrs
 - Designing various public and internal sites.
 - Working with stakeholders to steer projects.
 
-
-### **Web Designer at Prempter**
-
-Aug 2011 - Oct 2012 · 1 yr 
-
-Designing web properties for various clients.
 
 ---
 
