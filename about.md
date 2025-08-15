@@ -29,7 +29,7 @@ I’ve worked as a UI Designer within product and development teams. I’ve also
 ### Tools
 
 - Proficient in Figma, Adobe Illustrator, and Adobe Photoshop.
-- Skilled in integrating Figma with Make/Lovable for streamlined workflows and scaling products/design systems.
+- Skilled in integrating Figma Make or Lovable for streamlined workflows and scaling products and design systems.
 
 ### Team and Collaboration
 
