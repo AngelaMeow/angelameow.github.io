@@ -18,6 +18,28 @@ I’ve worked as a UI Designer within product and development teams. I’ve also
 
 ---
 
+## Skillset 
+
+### Design
+
+- Analyze and translate user needs into actionable design requirements.
+- Create wireframes and prototypes to explore and validate solutions.
+- Define and maintain design systems, including tokens and components.
+
+### Tools
+
+- Proficient in Figma, Adobe Illustrator, and Adobe Photoshop.
+- Skilled in integrating Figma with Make/Lovable for streamlined workflows and scaling products/design systems.
+
+### Team and Collaboration
+
+- Experienced in working within Agile/Scrum teams.
+- Fluent in English and Spanish; conversational in Portuguese.
+
+
+
+---
+
 ## **👩🏻‍💻** Work experience
 
 ### Designer at Morphe
