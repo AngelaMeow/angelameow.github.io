@@ -110,6 +110,19 @@ img {
   max-width: 100%;
 }
 
+.button {
+	display: block; 
+	padding: 0.5rem 1rem;
+	background: $lightGray; 
+	border-radius: 0.25rem;
+	color: $white;
+}
+
+.button:hover {
+	background: $Gray; 
+	box-shadow: 0 0 5px rgba(0,0,0,.5);
+}
+
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
