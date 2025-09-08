@@ -334,7 +334,7 @@ nav {
 		flex-direction: column; 
 		input, textarea {
 			padding: 1rem;
-			border-color: $lightGray;
+			border: 1px solid $gray;
 		    font-family: $spaceGrotesk;
 		    font-size: 1rem;
 		    margin: .75rem 0;
