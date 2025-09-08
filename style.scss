@@ -327,11 +327,11 @@ nav {
 
 .main-index form {
 	display: flex; 
-	direction: column; 
+	flex-direction: column; 
 	gap: 1rem; 
 	label {
 		display: flex; 
-		direction: column; 
+		flex-direction: column; 
 		textfield, textarea {
 			padding: 1rem;
 			border-color: $lightGray;
