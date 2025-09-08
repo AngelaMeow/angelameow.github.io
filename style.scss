@@ -325,6 +325,20 @@ nav {
   } 
 }
 
+.main-index form {
+	display: flex; 
+	direction: column; 
+	gap: 1rem; 
+	label {
+		display: flex; 
+		direction: column; 
+		textfield, textarea {
+			padding: 1rem;
+			border-color: $lightGray;
+		}
+	}
+}
+
 footer {
   padding: 20px 0;
   text-align: center;
