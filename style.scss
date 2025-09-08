@@ -111,16 +111,19 @@ img {
 }
 
 .button {
-	display: block; 
-	padding: 8px 16px;
-	background: $lightGray; 
-	border-radius: 0.25rem;
-	color: $black;
+	display: block;
+    padding: 0.5rem 1.5rem;
+    background: #eee;
+    border-radius: 0.25rem;
+    color: #000;
+    width: fit-content;
+    margin: 2rem auto;
 }
 
 .button:hover {
 	background: $gray; 
-	box-shadow: 0 0 5px rgba(0,0,0,.5);
+	color: #000;
+	box-shadow: 0 0 12px rgba(0,0,0,.15);
 }
 
 // Fixes images in popup boxes from Google Translate
