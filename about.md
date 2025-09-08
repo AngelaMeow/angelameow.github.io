@@ -95,3 +95,8 @@ _Junior_ from Nov 2012 - Nov 2015 · 3 yrs
 *2010* 
 
 CEUTEC - Tegucigalpa, Honduras
+
+---
+
+If you want to get in touch for a project or work:
+[Leave me a message](https://angelato.design/#CONTACT)
