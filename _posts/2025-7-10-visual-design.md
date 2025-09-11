@@ -54,8 +54,4 @@ For Laureate International Universities I designed this fingerprint icon. It was
 
 ![Fingerprint Icon](../images/img-figerprint.jpg)
 
-#### Prizes for Christmas contest 
-During my work at Laureate we came up with a tradition for Christmas, a contest for funny categories. Thw prizes were keychains with the category character, as a trophy. 
-
-![Illustrations for contest](../images/img-illustration-prizes.jpg)
 
