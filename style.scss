@@ -259,7 +259,10 @@ nav {
 
 .posts {
 	display: grid; 
-    grid-template-columns: repeat(auto-fit, minmax(360px, 33vw));
+    grid-template-columns: repeat(auto-fit, minmax(560px, 33%));
+	@include mobile {
+	    grid-template-columns: repeat(auto-fit, minmax(360px, 33%));
+	  }
 }
 
 .posts > .post {
@@ -267,6 +270,7 @@ nav {
   display: flex;
   flex-direction: column;	
   gap: 20px;
+  padding: 0.5rem 1.5rem;
 }
 
 .posts > .post:last-child {
