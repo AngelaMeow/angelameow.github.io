@@ -264,8 +264,8 @@ nav {
 
 .posts > .post {
   padding-bottom: 3em;
-  display: grid;
-  grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+  display: flex;
+  flex-direction: column;	
   gap: 20px;
 }
 
@@ -321,7 +321,7 @@ nav {
 	max-width: 940px;
 }
 
-.post {
+.post-container {
 max-width: 940px;
   .entry {
   	max-width: 780px;
