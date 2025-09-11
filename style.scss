@@ -290,7 +290,7 @@ nav {
 		object-fit: cover;
 		transition: all .25s ease-in-out;
 	}
-	.post-image:hover {
+	&:hover .post-image {
 		 transform: scale(1.05);
 	}
 }
