@@ -262,8 +262,8 @@ nav {
     grid-template-columns: repeat(auto-fit, minmax(560px, 1fr));
 	justify-content: center;
     align-items: stretch;
-    border-top: 1px solid $gray;
-    border-left: 1px solid $gray;
+    border-top: 1px solid $lightGray;
+    border-left: 1px solid $lightGray;
 	
 	@include mobile {
 		grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
@@ -277,8 +277,8 @@ nav {
   flex-direction: column;	
   gap: 20px;
   padding: 0.5rem 1.5rem;
-  border-bottom: 1px solid $gray;
-  border-right: 1px solid $gray; 
+  border-bottom: 1px solid $lightGray;
+  border-right: 1px solid $lightGray; 
 }
 
 .posts > .post:last-child {
@@ -369,6 +369,8 @@ margin: auto;
 .contact-form {
 	max-width: 940px; 
 	margin: auto;
+	background-color: lightGray;
+	padding: 2rem;
 }
 
 footer {
