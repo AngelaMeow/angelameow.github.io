@@ -259,10 +259,10 @@ nav {
 
 .posts {
 	display: grid; 
-    grid-template-columns: repeat(auto-fit, minmax(560px, 33%));
+    grid-template-columns: repeat(auto-fit, minmax(560px, 1fr);
 	@include mobile {
-	    grid-template-columns: repeat(auto-fit, minmax(360px, 33%));
-	  }
+	grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  }
 }
 
 .posts > .post {
