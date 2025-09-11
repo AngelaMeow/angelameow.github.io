@@ -12,7 +12,7 @@ layout: default
       {% for post in site.posts %}
          <article class="post">
             {%- if post.image -%}
-            <img src="{{- post.image | relative_url -}}" alt="" class="post-image">
+            <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{- post.image | relative_url -}}" alt="" class="post-image"></a>
             {%- else -%}
               {%- assign postImage = "/assets/images/image-default.jpg" -%}
               <img src="{{- postImage | relative_url -}}" alt="" class="post-image">
