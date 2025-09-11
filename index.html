@@ -13,9 +13,6 @@ layout: default
   <medium>
   
   {% for tag in sorted_tags %}
-    <div id="{{ tag[0] }}" class="posts-heading">
-      <h2>{{ tag[0] | upcase }}</h2>
-    </div>
     <div class="posts">
       {% for post in tag[1] %}   
             <article class="post">
