@@ -1,9 +1,9 @@
 ---
 layout: post
-title: UX for Non-Profit Organization
+title: MUA Mujeres en las Artes Non-Profit: CMS Design Case Study
 tag: UI design
-excerpt: MUA is a non profit organization in Honduras that works towards promoting culture, arts and education with an inclusive and fair perspective. Explore how we worked together for the development and maintenance of their portals.
-image: ../images/img-bienal.jpg
+excerpt: A Honduran non-profit needed an efficient way to manage their growing digital presence. I designed and implemented a CMS solution that simplified content management across multiple platforms.
+image: ../images/img-mua-web.jpg
 ---
 
 ### Overview
