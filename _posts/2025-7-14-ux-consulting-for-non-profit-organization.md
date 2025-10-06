@@ -1,6 +1,6 @@
 ---
 layout: post
-title: MUA Mujeres en las Artes Non-Profit: CMS Design Case Study
+title: MUA Mujeres en las Artes - CMS Design Case Study
 tag: UI design
 excerpt: A Honduran non-profit needed an efficient way to manage their growing digital presence. I designed and implemented a CMS solution that simplified content management across multiple platforms.
 image: ../images/img-mua-web.jpg
