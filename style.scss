@@ -111,7 +111,7 @@ img {
 }
 
 .button {
-	display: block;
+	display: flex;
     padding: 0.5rem 1.5rem;
     background: $lightGray;
     border-radius: 0.25rem;
@@ -123,11 +123,18 @@ img {
     font-size: 1.2rem;
     font-family: 'Space Grotesk';
     text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
 }
 
 .button:hover {
-	color: $blue;
-	box-shadow: 0 0 12px rgba(0,0,0,.25);
+	box-shadow: 0 0 50px rgba(0,0,0,.15);
+}
+
+.button svg {
+	height: 24px;
+    display: inline-flex;
 }
 
 // Fixes images in popup boxes from Google Translate
