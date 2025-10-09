@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Mentoring
+title: Building Design Talent - Internship Program
 tag: UI design
-excerpt: This is the post excerpt.
+excerpt: Worked closely in the design internship program at Acklen Avenue, mentoring junior designers through their career development and skill-building journey.
 image: ../images/img-mentorship.jpg
 ---
 
 ### Overview
 
-During my time at Acklen Avenue I collaborated in the Internship Career Path for Designers. 
+During my time at Acklen Avenue I worked closely with management in the Internship Career Path for Designers. 
 
 ![Meeting with Interns](../images/img-mentorship.jpg)
 *Mentoring-ish*
