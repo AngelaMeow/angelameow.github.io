@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Graphic Design and Illustration Works
+title: Graphic Design and Illustration
 tag: Graphic Design
 excerpt: A curated collection of illustration and graphic design projects showcasing my visual design skills and creative exploration.
 image: ../images/img-lluvia-de-gatos.jpg
@@ -49,8 +49,8 @@ Here are the favorites, turned into stickers afterwards:
 ![Illustrations for contest](../images/img-illustration-animalitos-2.jpg)
 *Stickers and riso print*
 
-#### Bonus: Fingerprint Icon Lau 
-For Laureate International Universities I designed this fingerprint icon. It was used on a Portal for Students, where user were able to manage all of their personal and identification information, something like a digital student passport. 
+#### Bonus: Fingerprint Icon
+I designed this fingerprint icon for a Design System Laureate International Universities . The use case was to identify Students on a Passport Portal, where users were able to manage their personal and educational information, as a digital student passport. 
 
 ![Fingerprint Icon](../images/img-figerprint.jpg)
 
