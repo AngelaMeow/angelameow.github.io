@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Building Design Talent - Internship Program
+title: Building Design Talent on Internship Program
 tag: UI design
 excerpt: Worked closely in the design internship program at Acklen Avenue, mentoring junior designers through their career development and skill-building journey.
 image: ../images/img-mentorship.jpg
