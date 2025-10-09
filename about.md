@@ -15,7 +15,7 @@ Open to UX/UI roles with innovative product teams!
 
 ## Contact information
 
-**📍 Basen in:** Alcala de Henares, Spain
+**Based in:** Alcala de Henares, Spain
 
 **📧 Email:** [hello@angelato.design](mailto:hello@angelato.design)
 
