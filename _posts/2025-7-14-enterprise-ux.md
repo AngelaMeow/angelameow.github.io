@@ -17,7 +17,7 @@ Calvert Impact Capital is a non-profit in the Financial Industry. I collaborated
 The goal was to deliver a user friendly platform that allowed different user roles (Advisors, Investors and Admins) to manage information and transactions. We launched the project after a few months of development, and we maintain the engagement for iterations a couple of months after. My role was as a support designer at the beginning, and then I transitioned to lead designer of the team. 
 
 ### How we worked
-We worked under the Agile methodology: 
+We worked under the Agile methodology with an iterative process that included: 
 
 #### Discovery
 There was a discovery session at the beginning of the engagement, and a few follow-up discovery sessions after the first launch. It took place in the first two weeks of the Engagement. 
