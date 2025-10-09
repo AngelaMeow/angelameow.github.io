@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Enterprise UX for Organization
+title: B2B Enterprise UX - Internal Tools Design
 tag: UI design
-excerpt: I collaborated with a Agile team as a UX/UI designer. We mostly worked Enterprise UX for their internal usage.
+excerpt: Designed internal enterprise tools and workflows as part of an Agile product team, improving efficiency for organizational operations.
 image: ../images/img-calvert-cover.jpg
 ---
 
