@@ -1,24 +1,19 @@
 ---
 layout: post
-title: Revamping Websites for Start Ups 
+title: Startup Website Design & CMS Implementation 
 tag: UI design
-excerpt: CMS solutions designed and implemented for clients.To empower them with tools easy to use for customization and scalability. 
+excerpt: Designed and implemented scalable CMS solutions for startup clients, enabling non-technical teams to manage and grow their web presence independently.
 image: ../images/img-wordpress-wireframe-ss.jpg
 ---
 
-### Overview and Issue
+### Overview
 
-Call me “old school”  but I have always found CMS s a go-to for empowering small businesses with their products. 
-
-Last year I collaborated with two start ups and their websites. Both clients were familiar with CMS tools, and had already implemented their sites, but they were struggling with customization and scalability. 
-
-Me and the development team designed and developed custom themes for both projects. Covering the following requirements: 
+Last year I collaborated with a couple Startups, both companiess were already familiar with CMS tools and they had already implemented an initial version of their sites. 
+The main problem we decided to improve was to improve the ability for customization and scalability. Especially for non-technical team members to manage content. 
 
 ### The solution
 
-They needed to adapt to their branding. We integrated the branding, the visuals and the content so that the site looked refreshed and modern. 
-All of this, while trying to keep up with the Enterprise UX for the editors feasible, who already had experience updating content and blogs. 
-Scalability for new features, plugins, team members working with them. 
+We designed and developed custom themes for both projects. We implemented custom tools to manage and customize their branding, visuals and the content with arefreshed and modern look. Ensuring a feaseble Enterprise UX for the editors, who already had experience updating content and blogs, but struggled with blockers or limitations with previous themes. Additionally, we make sure to adapt the projects for scalability to implement new features, install and manage plugins, and new allow team members to learn and work efficiently. 
 
 ![SS Wireframes](../images/img-wordpress-wireframe-ss.jpg)
 *Wireframes for mobile*
