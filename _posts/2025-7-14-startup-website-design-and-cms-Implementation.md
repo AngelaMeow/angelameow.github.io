@@ -9,7 +9,7 @@ image: ../images/img-wordpress-wireframe-ss.jpg
 ### Overview
 
 Last year I collaborated with a couple Startups, both companiess were already familiar with CMS tools and they had already implemented an initial version of their sites. 
-The main problem we decided to improve was to improve the ability for customization and scalability. Especially for non-technical team members to manage content. 
+The main problem we decided to solve was the lack of customization and scalability. Especially for non-technical team members to manage content. 
 
 ### The solution
 
