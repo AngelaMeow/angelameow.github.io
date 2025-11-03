@@ -9,7 +9,7 @@ image: ../images/img-mua-web.jpg
 <div class="about-project" style="display:flex; flex-direction: row; ">
   <div>
     <h2>MUA Mujeres en las Artes - CMS Design Case Study</h2>
-    <a href="https://muahn.com/" class="button"> Live Preview </q>
+    <a href="https://muahn.com/" class="button"> Live Preview </a>
   </div>
   <div>
     <h3> About the project</h3>
