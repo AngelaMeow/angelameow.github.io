@@ -18,7 +18,7 @@ image: ../images/img-mua-web.jpg
 </div>
 
 
-### Goals
+## Goals
 
 MUA needed a centralized platform to manage and present their expanding online cultural and educational programs. During the pandemic, they had launched new initiatives across social media and digital channels, but content remained fragmented.
 Key objectives:
@@ -27,8 +27,9 @@ Key objectives:
 - Document program processes and showcase organizational achievements.
 - Deploy a scalable solution to host extensive media libraries and educational resources.
 
+***
 
-### The soultion
+## The soultion
 
 After initial discovery meetings and requirements gathering, we agreed to build a custom CMS platform using WordPress, optimized for MUA's internal team to manage diverse content types efficiently.
 
@@ -61,8 +62,9 @@ Pakas, an existing WordPress site launched during the 2020 lockdown, featured wo
 ![Legacy Pakas Website](../images/img-mua-pakas.jpg)
 *It was a great tool and platform for artists, specially during 2020.*
 
+***
 
-### Outcomes
+## Outcomes
 
 #### Operational Independence
 MUA transitioned from relying on external technical support to managing their platforms internally. The custom training resources and intuitive CMS structure empowered volunteers and staff to update content and publish news with lower delays.
@@ -86,7 +88,6 @@ Strategic outcomes:
 - Consolidated 3+ fragmented initiatives into single digital hub
 - Professional website infrastructure 
 - Improved brand consistency across products 
-
 
 #### Project Learnings
 - Inheriting the Pakas project mid-development taught valuable lessons in pragmatic problem-solving. Rather than pursuing ideal solutions within tight time and budget constraints, we optimized existing infrastructure—demonstrating that strategic adaptation often delivers better value than complete rebuilds.
