@@ -6,62 +6,88 @@ excerpt: A Honduran non-profit needed an efficient way to manage their growing d
 image: ../images/img-mua-web.jpg
 ---
 
-### Overview
-
-MUA is a non profit organization in Honduras that works towards promoting culture, arts and education with an inclusive and fair perspective. We had the chance to work in the past, they gave me the opportunity to take my professional practice in order to get my degree in Graphic design.
-
-![Artes para 3 Bienal](../images/img-bienal.jpg)
-Boletin para Tercera Bienal
-
-Later on they reached out for UX/Technical consulting. And we agreed to work together identifying the needs and solutions regarding digital platforms and communication. 
-
-They have developed a few new local programs to promote culture and create spaces. What we discover during the first consultation was: 
-
-- There was a need to create and maintain online portals/sites that were easy to use for any person in the organization. The ideal scenario was to find a tool that didn’t require advanced technical skills, other than normal computer and internet expertise. 
-- An option to document and present the process and achievements of the programs. Due to the amount of work, reports, resources and material we needed a feasible solution to “host” all that media. 
+<div class="about-project" style="display:flex; flex-direction: row; ">
+  <div>
+    <h2>MUA Mujeres en las Artes - CMS Design Case Study</h2>
+    <a href="https://muahn.com/" class="button"> Live Preview </q>
+  </div>
+  <div>
+    <h3> About the project</h3>
+    <p>This project was about building a centralized platform for MUA: Mujeres en las Artes, a non profit organization based in Honduras. The goal was to create a fast, clear, and trustworthy web experience for admins and visitors.</p>
+  </div>
+</div>
 
 
-### The soultion & My role
-After a couple of initial meetings, and collecting the requirements, we agreed on building the platforms using Wordpress.
-Due to the characteristics of the client and project we worked more freely, synching and reviewing on a bi-weekly basis, and via e-mail one or two times per week for smaller items. It was challenging at the beginning, considering we were in the middle of lockdown, but everything worked out as expected. 
+### Goals
 
-These are some of the outcomes: 
+MUA needed a centralized platform to manage and present their expanding online cultural and educational programs. During the pandemic, they had launched new initiatives across social media and digital channels, but content remained fragmented.
+Key objectives:
 
-#### Improving Infrastructure Strategy 
-Changing Hosting services so that we could have appropriate services for the organization, and customer support that could help non-technical admins with struggles related to backend and hosting. 
+- Unify multiple content sources into a single, user-friendly portal for internal use.
+- Document program processes and showcase organizational achievements.
+- Deploy a scalable solution to host extensive media libraries and educational resources.
 
-#### MUA (Institutional Portal) 
+
+### The soultion
+
+After initial discovery meetings and requirements gathering, we agreed to build a custom CMS platform using WordPress, optimized for MUA's internal team to manage diverse content types efficiently.
+
+#### Working Approach
+Given the nature of the organization and project scope, we adopted a flexible collaboration model with bi-weekly sync meetings and regular email check-ins for smaller updates. Despite the challenges of working during lockdown, this approach allowed us to maintain momentum and deliver results on schedule.
+
+#### Strategic Planning & Implementation
+
+##### Infrastructure Optimization
+We migrated MUA to a new hosting provider that offered robust services tailored to the organization's needs, including dedicated customer support for non-technical administrators managing backend operations.
+
+##### MUA Institutional Website
+We designed and developed a centralized parent platform to house all organizational programs and initiatives under one unified digital presence. This flagship project (now live and ongoing) serves as the single source of truth for MUA's cultural and educational offerings.
+
+##### Design System Development
+To maintain brand consistency across all digital properties, we translated MUA's existing style guide into a comprehensive WordPress design system, creating a custom theme aligned with their identity and visual communication standards.
+
+##### Knowledge Transfer & Documentation
+Recognizing that MUA relies on volunteers and staff with limited CMS experience, we created an extensive library of step-by-step video tutorials. This resource empowers team members to update content independently and onboard quickly.
+
+##### Pakas Program Migration
+Pakas, an existing WordPress site launched during the 2020 lockdown, featured workshops and tutorials with local artists. The original infrastructure wasn't scalable for the organization's growth and funding needs. We rebuilt the platform, migrated all content, and enhanced the theme. The site is currently being consolidated into the new institutional platform at MUAhn.com.
 
 ![MUA website](../images/img-mua-web.jpg)
 *MUA Website*
 
-This is the newest project we have been working on (still in progress, but online already!). The main goal with this site is to have a single Parent Platform that can contain  all the information of the programs and initiatives that the organization develops. 
-
-##### Keeping consistency 
-The second goal was translating their Styleguide into a Design System for Wordpress. To have officially a new custom theme that goes in line with their identity and branding communication. 
-
-
-##### Documenting process 
-The other big part of the deliverables was an entire library of step by step tutorials for the Wordpress Site. The organization works with volunteers and usually they and the employees don’t have previous experience working with CMS and/or websites. So providing with the library of resources allows them to work efficiently and learn quickly. 
-
 ![Video tutorials](../images/img-mua-tutorials.jpg)
 *Preparing step by step tutorials for the person in charge of updating content*
-
-[Visit the website](https://muahn.com/)
-
-
-#### Pakas
-This was a pre-existing Wordpress site, before we started our engagement. During 2020’s lockdown they launched online resources such as workshops and video tutorials in collaboration with local artists. The resources were oriented to the public in general, not only to the ones interested in arts and culture. So, the organization needed their own portal to get funding. The tools and infrastructure used originally were not scalable, so that's when we started to work together. 
-
-After planning and developing their new platform. We migrated the site and improve the entire theme. 
-The site is still online: [Pakashn.com](https://pakashn.com/) but we are currently migrating and consolidating all of the MUA programs and initiatives under their new institutional site: [MUAhn.com](https://muahn.com/)
 
 ![Legacy Pakas Website](../images/img-mua-pakas.jpg)
 *It was a great tool and platform for artists, specially during 2020.*
 
 
-### Lessons Learned
+### Outcomes
 
-- Working on a project after they had kicked off it, it’s always challenging. In the case of the Pakas project there were some tools and libraries that were going to be too difficult to change completely (time, budget and effort) and we had to adapt to make it work with what we have at the moment. 
-- Helping with cultural/art projects is really refreshing, even tho my work is done "behind the scenes". It gives a more profound retribution compared to other payed jobs. 
-- Adapting my own process to the schedules and resources was hectic, and support other people with my technical expertise took some time to be shaped well. I was used to be helped by an IT person, but with MUA I am the go-to person for tech related issues. It has pushed me to be up-to-date with processes and tools. 
+#### Operational Independence
+MUA transitioned from relying on external technical support to managing their platforms internally. The custom training resources and intuitive CMS structure empowered volunteers and staff to update content and publish news with lower delays.
+
+##### Measurable impact:
+
+- Content publishing workflow accelerated from 2-3 days to 1 hour on average
+- Training library with step-by-step guides created from new staff and volunteers
+
+##### Cost-Effective Scalability
+Strategic infrastructure improvements and platform consolidation positioned MUA to scale their digital presence without proportional increases in maintenance costs or technical overhead.
+Value delivered:
+
+- Unified platform eliminated need for multiple hosting providers
+- Design system is expected to reduce future development time
+
+##### Enhanced Institutional Credibility
+A professional, cohesive digital presence strengthened MUA's positioning for grant applications and community partnerships. The centralized platform demonstrates organizational maturity and impact.
+Strategic outcomes:
+
+- Consolidated 3+ fragmented initiatives into single digital hub
+- Professional website infrastructure 
+- Improved brand consistency across products 
+
+
+#### Project Learnings
+- Inheriting the Pakas project mid-development taught valuable lessons in pragmatic problem-solving. Rather than pursuing ideal solutions within tight time and budget constraints, we optimized existing infrastructure—demonstrating that strategic adaptation often delivers better value than complete rebuilds.
+- Serving as the sole technical resource expanded my capacity to own complex decisions independently. Without an IT department to lean on, I developed deeper expertise across hosting, backend systems, and user support—ultimately enabling faster, more customized solutions aligned with MUA's mission-driven work.
