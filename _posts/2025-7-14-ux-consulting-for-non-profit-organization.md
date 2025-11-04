@@ -6,7 +6,7 @@ excerpt: A Honduran non-profit needed an efficient way to manage their growing d
 image: ../images/img-mua-web.jpg
 ---
 
-<div class="about-project" style="display:flex; flex-direction: row; ">
+<div class="about-project">
   <div>
     <h2>MUA Mujeres en las Artes - CMS Design Case Study</h2>
     <a href="https://muahn.com/" class="button"> Live Preview </a>
