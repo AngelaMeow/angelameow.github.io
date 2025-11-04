@@ -360,7 +360,6 @@ nav {
 max-width: 940px;
 margin: auto;
   .entry {
-  	max-width: 780px;
 	margin: auto;
 	img {
 		margin-top: 1.5rem;
@@ -368,7 +367,20 @@ margin: auto;
 	p, ul {
 	   	 margin: 1.5rem auto 1rem auto;	  
 	  }	  
+	h3 {
+		margin-top: 2.5rem;
+	}
   } 
+}
+
+.about-project {
+	display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    background: #FAFAFA;
+    margin: 0 0 0 0;
+    padding: 30px;
 }
 
 .main-index form {
