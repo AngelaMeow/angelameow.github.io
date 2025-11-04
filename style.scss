@@ -383,7 +383,7 @@ margin: auto;
     padding: 30px;
 	position: relative; 
 	z-index: 1;
-	&::before {
+	&:before {
 		display: block; 
 		content: "";
 		z-index: 0;
