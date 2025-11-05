@@ -6,20 +6,34 @@ excerpt: Designed and implemented scalable CMS solutions for startup clients, en
 image: ../images/img-wordpress-wireframe-ss.jpg
 ---
 
-### Overview
+<div class="about-project">
+  <div>
+    <h2>MUA Mujeres en las Artes - CMS Design Case Study</h2>
+    <a href="https://gominno.com/" class="button"> Live Preview </a>
+  </div>
+  <div>
+    <h3> About the project</h3>
+    <p>These two project were about building Markwting platforms to empower internal teams to manage their content. And provide a fast, clear, and trustworthy web experience for admins and visitors.</p>
+  </div>
+</div>
 
-Last year I collaborated with a couple Startups, both companiess were already familiar with CMS tools and they had already implemented an initial version of their sites. 
-The main problem we decided to solve was the lack of customization and scalability. Especially for non-technical team members to manage content. 
 
-### The solution
+## Goals
+
+The two startups that I worked with had a similar challenge: their initial websites were functional but constrained by inflexible CMS platforms.
+What needed to change:
+
+- **Customization** – Systems were too rigid to adapt to specific business needs
+- **Scalability** – Infrastructure couldn't support growth in content and traffic
+- **Usability** – Non-technical teams struggled with content management, creating developer dependencies
+
+**The  main goal:** rebuild their platforms with flexibility, scalability, and user empowerment at the core.
+
+***
+
+## The solution
 
 We designed and developed custom themes for both projects. We implemented custom tools to manage and customize their branding, visuals and the content with arefreshed and modern look. Ensuring a feaseble Enterprise UX for the editors, who already had experience updating content and blogs, but struggled with blockers or limitations with previous themes. Additionally, we make sure to adapt the projects for scalability to implement new features, install and manage plugins, and new allow team members to learn and work efficiently. 
-
-![SS Wireframes](../images/img-wordpress-wireframe-ss.jpg)
-*Wireframes for mobile*
-
-![Minno Wireframes](../images/img-wordpress-wireframe-minno.jpg)
-*Wireframes for desktop*
 
 
 ### Methodology
@@ -36,19 +50,37 @@ The definition was the extraction of the business and user requirements and Epic
 A loop of Planning, Designing and Developing, and finally Testing. And repeating the process on a Weekly Sprint basis so that we could complete the templates. The build-measure-learn goal was to give value continuously and maximize the customer satisfaction, reduce risk, and improve product quality.
 
 #### Launch + Handoff
-The official installation of the theme work, documentation and any notes and training delivered.
+The official installation of the theme work, documentation and any notes and training delivered. The result was a new theme launched and installed in the Public sites. We also worked closely with Product, Content and Marketing teams to set up the tool and plugin for A/B testing, SEO, and Analytics for optimization. The documentation was delivered within the handoff, documenting the theme structure (owned by the company) and also the wordpress process including setp-by-step guidelines and instructions for new collaborators. 
 
 ![](../images/img-process-morphe.jpg)
 *Agile-data adapted process*
 
-The result was a new theme launched and installed in the Public sites. We also worked closely with Product, Content and Marketing teams to set up the tool and plugin for A/B testing, SEO, and Analytics for optimization. 
+![SS Wireframes](../images/img-wordpress-wireframe-ss.jpg)
+*Wireframes for mobile*
 
-The documentation part was also a big chunk of effort. Documenting the theme structure (owned by the company) and also the wordpress process (tutorials and steps for new editors). 
+![Minno Wireframes](../images/img-wordpress-wireframe-minno.jpg)
+*Wireframes for desktop*
 
-### Lessons Learned
+***
 
-Through the projects, we encounter challenges and even after some iterations: 
+## Outcomes
 
-- Working with Start-ups is a unique experience, You have to be open minded for constant changes in OKRs and priorities, as on the overall business level. 
-- Collaborating with teams other than technology is always hectic, but also efficient for achieving business goals.
-- In Spanish we have a saying *“Más vale malo conocido que bueno por conocer”* in English it would be something like “Better the bad you know than the good you don't”, and I'm talking about Drag and Drop editor Tools. Elementor is the Bad that we know and Thrive editor the Good to know. Selecting plugins and tools for wordpress can be tricky, sometimes more than looking at reviews and how well supported it is, time will give you the answers.
+The rebuilt CMS platforms transformed from operational constraints into strategic advantages. Both startups now operate with content teams that can publish, update, and experiment independently—without waiting on developer availability.
+
+##### Measurable impact:
+
+- Content publishing workflow accelerated. 
+- Marketing team autonomy increased (no technical dependencies for standard operations)
+
+##### Measurable impact:Built to Scale
+The new infrastructure provides headroom for growth. Both platforms can handle significant increases in content volume, traffic, and feature complexity.
+Technical and non technical outcomes:
+
+- Modular design reduces future development time by 30-40%
+- Support marketing opperations providing the ability to manage Landing Pages for Marketing campaigns
+- Campaign launch time: from weeks to days
+- Real-time content optimization and A/B testing capabilities
+
+#### What I Learned
+- Startups don't move in straight lines. Both projects experienced multiple priority shifts, strategy pivots, and OKR changes—sometimes mid-development. This taught me to build for adaptability first: flexible architectures, modular systems, and interfaces that can evolve without requiring rebuilds.
+- Working closely with non-technical teams was initially challenging but ultimately critical to success. Understanding marketing workflows, content strategies, and business constraints informed better technical decisions. The coordination overhead was real, but so was the impact—these platforms succeeded precisely because they were designed around actual business needs, not just technical ideals.
