@@ -7,11 +7,11 @@ image: ../images/img-mua-web.jpg
 ---
 
 <div class="about-project">
-  <div>
+  <div class="col-1">
     <h2>MUA Mujeres en las Artes - CMS Design Case Study</h2>
     <a href="https://muahn.com/" class="button"> Live Preview </a>
   </div>
-  <div>
+  <div class="col-2">
     <h3> About the project</h3>
     <p>This project was about building a centralized platform for MUA: Mujeres en las Artes, a non profit organization based in Honduras. The goal was to create a fast, clear, and trustworthy web experience for admins and visitors.</p>
   </div>
