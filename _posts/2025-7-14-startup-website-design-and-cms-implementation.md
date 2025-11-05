@@ -7,11 +7,11 @@ image: ../images/img-wordpress-wireframe-ss.jpg
 ---
 
 <div class="about-project">
-  <div>
+  <div class="col-1">
     <h2>Startup Website Design and CMS Implementation 
     <a href="https://gominno.com/" class="button"> Live Preview </a>
   </div>
-  <div>
+  <div class="col-2">
     <h3> About the project</h3>
     <p>The two clients were about building Marketing platforms to empower internal teams to manage content. The goal was to provide a fast, clear, and trustworthy web experience for admins and visitors.</p>
   </div>
