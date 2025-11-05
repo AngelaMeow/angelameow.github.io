@@ -376,9 +376,7 @@ margin: auto;
 .about-project {
 	display: flex;
     flex-direction: row;
-    gap: 20px;
     width: 100%;
-    background: #FAFAFA;
     margin: 0 0 0 0;
     padding: 30px;
 	position: relative; 
@@ -396,6 +394,10 @@ margin: auto;
 		opacity: 0.8;
 		background-image: radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
 		background-size: 10px 10px;
+	}
+	div {
+		padding: 30px; 
+		background: #FAFAFA;
 	}
 }
 
