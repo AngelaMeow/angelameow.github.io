@@ -377,10 +377,11 @@ margin: auto;
 	display: flex;
     flex-direction: row;
     width: 100%;
-    margin: 0 0 0 0;
+    margin: 0;
     padding: 0;
 	position: relative; 
 	z-index: 1;
+	flex-wrap: wrap;
 	&:after {
 		display: block; 
 		content: "";
@@ -401,6 +402,9 @@ margin: auto;
 	}
 	.col-1 {
 		width: 40%;
+	}
+	.col-2 {
+		width: 60%;
 	}
 }
 
