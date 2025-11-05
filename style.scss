@@ -378,7 +378,7 @@ margin: auto;
     flex-direction: row;
     width: 100%;
     margin: 0 0 0 0;
-    padding: 30px;
+    padding: 0;
 	position: relative; 
 	z-index: 1;
 	&:after {
@@ -398,6 +398,9 @@ margin: auto;
 	div {
 		padding: 30px; 
 		background: #FAFAFA;
+	}
+	.col-1 {
+		width: 40%;
 	}
 }
 
