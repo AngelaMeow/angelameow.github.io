@@ -14,6 +14,16 @@ image: ../images/img-mua-web.jpg
   <div class="col-2">
     <h3> About the project</h3>
     <p>This project was about building a centralized platform for MUA: Mujeres en las Artes, a non profit organization based in Honduras. The goal was to create a fast, clear, and trustworthy web experience for admins and visitors.</p>
+    <ul>
+      <li>
+        <h5>Services provided</h5>
+        <p>UX/UI consultory / Web design and implementation </p>
+      </li>
+      <li>
+        <h5>Client</h5>
+        <p>MUA: Mujeres en las Artes</p>
+      </li>
+    </ul>  
   </div>
 </div>
 
