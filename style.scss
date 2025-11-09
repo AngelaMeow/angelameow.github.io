@@ -367,8 +367,8 @@ margin: auto;
 	p, ul {
 	   	 margin: 1.5rem auto 1rem auto;	  
 	  }	  
-	h2, hr {
-		margin-top: 2.5rem;
+	h2, h4, hr {
+		margin-top: 3rem;
 	}
   } 
 }
@@ -402,6 +402,9 @@ margin: auto;
 	}
 	.col-1 {
 		width: 40%;
+		h2 {
+			font-size: 3rem;
+		}
 		.button {
 			margin-left: 0;
 			margin-right: 0;
