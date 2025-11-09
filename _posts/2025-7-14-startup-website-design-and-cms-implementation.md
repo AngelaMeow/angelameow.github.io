@@ -14,6 +14,16 @@ image: ../images/img-wordpress-wireframe-ss.jpg
   <div class="col-2">
     <h3> About the project</h3>
     <p>The two clients were about building Marketing platforms to empower internal teams to manage content. The goal was to provide a fast, clear, and trustworthy web experience for admins and visitors.</p>
+    <ul>
+      <li>
+        <h5>Services provided</h5>
+        <p>UX/UI · Wordpress </p>
+      </li>
+      <li>
+        <h5>Client</h5>
+        <p>Winsome Truth, Inc.</p>
+      </li>
+    </ul> 
   </div>
 </div>
 
