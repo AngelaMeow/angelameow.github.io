@@ -6,8 +6,27 @@ excerpt: A curated collection of illustration and graphic design projects showca
 image: ../images/img-lluvia-de-gatos.jpg
 ---
 
+<div class="about-project">
+  <div class="col-1">
+    <h2>Graphic Design and Illustration</h2>
+  </div>
+  <div class="col-2">
+    <h3> About the project</h3>
+    <p>A curated collection of illustration and graphic design projects showcasing my visual design skills and creative exploration.</p>
+    <ul>
+      <li>
+        <h5>Services provided</h5>
+        <p>Graphic Design · Illustration </p>
+      </li>
+      <li>
+        <h5>Client</h5>
+        <p>Various · Personal Projects </p>
+      </li>
+    </ul>  
+  </div>
+</div>
 
-### Branding 
+## Branding 
 
 ##### Lluvia de Gatos
 
@@ -20,7 +39,7 @@ image: ../images/img-lluvia-de-gatos.jpg
 *Lynx Labs Branding*
 
 
-### Illustration
+## Illustration
 During my free time and as part of working my creative side I try to draw and illustrate whenever I can. Sometimes it is not as often as I would like but here is a selection of fun personal projects I have worked on so far. 
 
 #### Workshop Illustrations
@@ -49,7 +68,7 @@ Here are the favorites, turned into stickers afterwards:
 ![Illustrations for contest](../images/img-illustration-animalitos-2.jpg)
 *Stickers and riso print*
 
-#### Bonus: Fingerprint Icon
+#### Fingerprint Icon
 I designed this fingerprint icon for a Design System Laureate International Universities . The use case was to identify Students on a Passport Portal, where users were able to manage their personal and educational information, as a digital student passport. 
 
 ![Fingerprint Icon](../images/img-figerprint.jpg)
