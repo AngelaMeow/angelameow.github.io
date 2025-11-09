@@ -17,7 +17,7 @@ image: ../images/img-mua-web.jpg
     <ul>
       <li>
         <h5>Services provided</h5>
-        <p>UX/UI consultory / Web design and implementation </p>
+        <p>UX/UI · Wordpress </p>
       </li>
       <li>
         <h5>Client</h5>
