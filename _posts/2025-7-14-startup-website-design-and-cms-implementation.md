@@ -8,7 +8,7 @@ image: ../images/img-wordpress-wireframe-ss.jpg
 
 <div class="about-project">
   <div class="col-1">
-    <h2>Startup Website Design and CMS Implementation</h2>
+    <h2>{{ page.title }}</h2>
     <a href="https://gominno.com/" class="button"> Live Preview </a>
   </div>
   <div class="col-2">
