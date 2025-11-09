@@ -13,6 +13,16 @@ image: ../images/img-calvert-cover.jpg
   <div class="col-2">
     <h3> About the project</h3>
     <p>Designed internal enterprise platform and workflows as part of an Agile product team, with the main goal of improving efficiency in their organizational operations.</p>
+    <ul>
+      <li>
+        <h5>Services provided</h5>
+        <p>UX/UI · Frontend Support </p>
+      </li>
+      <li>
+        <h5>Client</h5>
+        <p>MUA: Mujeres en las Artes</p>
+      </li>
+    </ul> 
   </div>
 </div>
 
