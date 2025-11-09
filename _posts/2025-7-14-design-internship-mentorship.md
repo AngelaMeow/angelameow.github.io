@@ -6,6 +6,26 @@ excerpt: Worked closely in the design internship program at Acklen Avenue, mento
 image: ../images/img-mentorship.jpg
 ---
 
+<div class="about-project">
+  <div class="col-1">
+    <h2>Building Design Talent on Internship Program</h2>
+  </div>
+  <div class="col-2">
+    <h3> About the project</h3>
+    <p>Worked closely in the design internship program at Acklen Avenue, mentoring junior designers through their career development and skill-building journey.</p>
+    <ul>
+      <li>
+        <h5>Services provided</h5>
+        <p>Mentoring </p>
+      </li>
+      <li>
+        <h5>Client</h5>
+        <p>Acklen Avenue </p>
+      </li>
+    </ul>  
+  </div>
+</div>
+
 ### Overview
 
 During my time at Acklen Avenue I worked closely with management in the Internship Career Path for Designers. 
