@@ -30,10 +30,10 @@ image: ../images/img-mua-web.jpg
 
 ## Goals
 
-MUA needed a centralized platform to manage and present their expanding online cultural and educational programs. During the pandemic, they had launched new initiatives across social media and digital channels, but content remained fragmented.
-Key objectives:
+MUA needed a centralized platform to manage and present their online cultural and educational programs. During the pandemic, they had developed new initiatives across social media and other online channels, but content remained fragmented.
+The key objectives were:
 
-- Unify multiple content sources into a single, user-friendly portal for internal use.
+- Unify multiple content sources into a single, user-friendly portal.
 - Document program processes and showcase organizational achievements.
 - Deploy a scalable solution to host extensive media libraries and educational resources.
 
@@ -41,27 +41,27 @@ Key objectives:
 
 ## The soultion
 
-After initial discovery meetings and requirements gathering, we agreed to build a custom CMS platform using WordPress, optimized for MUA's internal team to manage diverse content types efficiently.
+After the initial discovery meetings and requirements gathering, we agreed to build a custom CMS platform using WordPress, optimized for MUA's internal team and volunteers to manage content efficiently.
 
 #### Working Approach
-Given the nature of the organization and project scope, we adopted a flexible collaboration model with bi-weekly sync meetings and regular email check-ins for smaller updates. Despite the challenges of working during lockdown, this approach allowed us to maintain momentum and deliver results on schedule.
+Given the nature of the organization and project scope, we worked with a flexible collaboration model with bi-weekly meetings and regular message check-ins for smaller updates. Despite the challenges of working during lockdown, this approach allowed us to maintain momentum and deliver results on schedule.
 
 #### Strategic Planning & Implementation
 
 ##### Infrastructure Optimization
-We migrated MUA to a new hosting provider that offered robust services tailored to the organization's needs, including dedicated customer support for non-technical administrators managing backend operations.
+We migrated MUA to a new hosting provider that offered robust services specialized to the organization's needs, including dedicated customer support for non-technical administrators managing the site.
 
 ##### MUA Institutional Website
-We designed and developed a centralized parent platform to house all organizational programs and initiatives under one unified digital presence. This flagship project (now live and ongoing) serves as the single source of truth for MUA's cultural and educational offerings.
+We designed and developed a centralized platform to cover all organizational programs and initiatives under one unified domain. This domain (now live and ongoing at ([muahn.com](https://muahn.com/))) serves as the single source of truth for MUA's cultural and educational offerings.
 
 ##### Design System Development
-To maintain brand consistency across all digital properties, we translated MUA's existing style guide into a comprehensive WordPress design system, creating a custom theme aligned with their identity and visual communication standards.
+To maintain brand consistency we translated MUA's existing style guide into a comprehensive WordPress design system, creating a custom theme aligned with their identity and visual communication standards.
 
 ##### Knowledge Transfer & Documentation
-Recognizing that MUA relies on volunteers and staff with limited CMS experience, we created an extensive library of step-by-step video tutorials. This resource empowers team members to update content independently and onboard quickly.
+Recognizing that MUA relies on volunteers and staff with limited CMS experience, we created a library of guidelines and resources with step-by-step video tutorials. Empowering team members to update content independently and new volunteers onboard quickly.
 
 ##### Pakas Program Migration
-Pakas, an existing WordPress site launched during the 2020 lockdown, featured workshops and tutorials with local artists. The original infrastructure wasn't scalable for the organization's growth and funding needs. We rebuilt the platform, migrated all content, and enhanced the theme. The site is currently being consolidated into the new institutional platform at MUAhn.com.
+Pakas, an existing WordPress site launched during the 2020 lockdown, featured workshops and tutorials with local artists. The original infrastructure wasn't scalable for the organization's growth and funding needs. We rebuilt the platform, migrated all content, and enhanced the theme. The site is currently being consolidated into the new institutional platform.
 
 ![MUA website](../images/img-mua-web.jpg)
 *MUA Website*
@@ -77,12 +77,12 @@ Pakas, an existing WordPress site launched during the 2020 lockdown, featured wo
 ## Outcomes
 
 #### Operational Independence
-MUA transitioned from relying on external technical support to managing their platforms internally. The custom training resources and intuitive CMS structure empowered volunteers and staff to update content and publish news with lower delays.
+MUA transitioned from being blocked on updating content to managing their platforms internally and rely on external support for hosting/tech issues. The custom training resources and intuitive CMS structure empowered volunteers and staff to update content and publish news with lower delays. And the new hosting provider offered expert 24/7 support for technical issues related to wordpress, plugins, status, etc. 
 
 ##### Measurable impact:
 
 - Content publishing workflow accelerated from 2-3 days to 1 hour on average
-- Training library with step-by-step guides created from new staff and volunteers
+- Training library with step-by-step guides created for new staff and volunteers
 
 ##### Cost-Effective Scalability
 Strategic infrastructure improvements and platform consolidation positioned MUA to scale their digital presence without proportional increases in maintenance costs or technical overhead.
