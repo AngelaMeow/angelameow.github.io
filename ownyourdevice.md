@@ -1,10 +1,10 @@
 ---
 layout: ownyourdevice
-title: Own Your Device Project
+title: Own Your Device
 permalink: /internet-inequalities-own-your-device/
 ---
 
-## Longlife to Videogames and other "obsolete" devices 
+## Longlife to Videogames and other "obsolete" devices - A Tech/Internet Inequality Collection
 
 Many functional devices become "obsolete" each decade not because they stop working, but because manufacturers end software support. This is the result of my critical inquiry: a collection of resources for identifying, repurposing, (and hopefully) redistributing the devices to extend their lifespan, reduce e-waste.
 
