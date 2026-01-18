@@ -1,6 +1,7 @@
 ---
 layout: ownyourdevice
 title: Own Your Device
+description: Learn how to mod Nintendo 3DS, Wii, Wii U, iPod, and Android devices. Extend device lifespan, reduce e-waste, and truly own what you paid for.
 permalink: /internet-inequalities-own-your-device/
 ---
 
