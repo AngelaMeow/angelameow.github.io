@@ -1,6 +1,6 @@
 ---
 layout: ownyourdevice
-title: Own Your Device: Mod Consoles to Fight E-Waste | Guide
+title: Own Your Device: Mod Consoles to Fight E-Waste
 description: Learn how to mod Nintendo 3DS, Wii, Wii U, iPod, and Android devices. Extend device lifespan, reduce e-waste, and truly own what you paid for.
 permalink: /internet-inequalities-own-your-device/
 ---
