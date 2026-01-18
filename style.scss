@@ -476,6 +476,15 @@ footer {
 
 /* OYD page */
 
+.oyd-gallery {
+	display: grid; 
+	grid-template-columns: repeat(2, 1fr); 
+	margin: 40px 3vw;
+	@include mobile {
+		grid-template-columns: repeat(1, 1fr); 
+	  }
+}
+
 .oyd-gallery-item {
 	padding: 1rem;
 }
