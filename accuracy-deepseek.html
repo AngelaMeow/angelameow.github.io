@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bouncing Ball Simulation</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f5f5f5;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        .simulation-container {
+            position: relative;
+            width: 500px;
+            height: 500px;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        
+        .square {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .ball {
+            position: absolute;
+            width: 25px;
+            height: 25px;
+            background-color: #4a90e2;
+            border-radius: 50%;
+            box-shadow: inset -2px -2px 4px rgba(0,0,0,0.1);
+            cursor: pointer;
+        }
+        
+        .info-panel {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            font-size: 14px;
+        }
+        
+        button {
+            background-color: #4a90e2;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        
+        button:hover {
+            background-color: #3a7bc8;
+        }
+    </style>
+</head>
+<body>
+    <div class="simulation-container">
+        <canvas id="simulationCanvas" width="500" height="500"></canvas>
+        <div class="info-panel">
+            Click "Start Simulation" to begin. Then click to interact with the ball.
+        </div>
+    </div>
+
+    <script>
+        // Get canvas and context
+        const canvas = document.getElementById('simulationCanvas');
+        const ctx = canvas.getContext('2d');
+
+        // Square dimensions - adjust based on ball position
+        const squareSize = 400;
+        
+        // Ball properties with random behavior initialization
+        let ballRadius = Math.random() * 10 + 15; // Random radius between 15 and 25
+        let ballX, ballY;
+        
+        // Get initial position with some randomness near the square center
+        const centerX = canvas.width / 2;
+        const centerY = canvas.height / 2;
+        
+        // Set random initial position inside the simulation area
+        function getRandomPosition() {
+            const padding = 50;
+            return {
+                x: Math.random() * (canvas.width - squareSize) + padding,
+                y: Math.random() * (canvas.height - squareSize) + padding
+            };
+        }
+        
+        let { x: initialX, y: initialY } = getRandomPosition();
+        ballRadius = Math.min(ballRadius, 20); // Ensure radius not too large
+        
+        // Calculate square boundaries based on the ball's position
+        function calculateSquareBoundaries() {
+            return {
+                left: initialX - ballRadius,
+                right: initialX + squareSize/2 + ballRadius,
+                top: initialY - ballRadius,
+                bottom: initialY + squareSize/2 + ballRadius
+            };
+        }
+        
+        const boundaries = calculateSquareBoundaries();
+        
+        // Ball speed properties with random initialization
+        let ballSpeedX = (Math.random() * 20 + 5) * Math.sign(Math.random()) * -1;
+        let ballSpeedY = (Math.random() * 20 + 5) * Math.sign(Math.random()) * -1;
+        
+        // Position tracking
+        let mouseX = null, mouseY = null;
+        
+        // Get initial velocity with some randomness based on position
+        function getRandomVelocity() {
+            const maxSpeed = 10;
+            
+            // Calculate angle based on position relative to center
+            const centerXDiff = initialX - centerX;
+            const centerYDiff = initialY - centerY;
+            
+            // Direction towards center has higher speed, away has lower speed
+            const directionAngle = Math.atan2(-centerYDiff, centerXDiff); // Negative y for downward
+            
+            // Calculate distance of initial position from center
+            const distanceFromCenter = Math.sqrt(centerXDiff*2 + centerYDiff*2);
+            
+            // Higher speed closer to the center, lower speed further away
+            const distanceFactor = Math.min(distanceFromCenter / (canvas.width/4), 1);
+            
+            // Combine with random factor for slight variation in direction
+            const angleVariance = Math.random() * 0.4 - 0.2;
+            
+            return {
+                angle: directionAngle + angleVariance,
+                speedX: maxSpeed * Math.cos(directionAngle) * distanceFactor * 5, // Speed adjusted based on position
+                speedY: maxSpeed * Math.sin(directionAngle) * distanceFactor * 5 // Negative y means downward, so sin gives negative value
+            };
+        }
+        
+        const velocityInfo = getRandomVelocity();
+        ballSpeedX = -velocityInfo.speedX * Math.random() + velocityInfo.speedX; // More random by flipping sign with probability
+        ballSpeedY = -velocityInfo.speedY * Math.random() + velocityInfo.speedY;
+        
+        // Ball object properties
+        const ball = {
+            x: initialX,
+            y: initialY,
+            radius: ballRadius,
+            vx: ballSpeedX,
+            vy: ballSpeedY
+        };
+        
+        // Start button event handling
+        document.querySelector('.info-panel').addEventListener('click', () => {
+            const startBtn = document.createElement('button');
+            startBtn.textContent = 'Start Simulation';
+            startBtn.style.marginLeft = '10px';
+            document.querySelector('.info-panel').appendChild(startBtn);
+            
+            startBtn.addEventListener('click', () => {
+                const container = document.querySelector('.simulation-container');
+                if (!container.dataset.simulating) {
+                    startBtn.textContent = 'Restart Simulation';
+                    container.style.cursor = 'default';
+                    
+                    // Reset simulation parameters with new randomness
+                    resetSimulation();
+                    startBtn.removeEventListener('click', handleRestart);
+                }
+            });
+        });
+        
+        // Reset simulation function with new random values
+        function resetSimulation() {
+            container.dataset.simulating = 'true';
+            
+            // Get new random position
+            const { x: newX, y: newY } = getRandomPosition();
+            
+            // Get new random velocity
+            const newVelocityInfo = getRandomVelocity();
+            ball.vx = -newVelocityInfo.speedX * 0.5 + newVelocityInfo.speedX;
+            ball.vy = -newVelocityInfo.speedY * 0.5 + newVelocityInfo.speedY;
+            
+            // Update ball position
+            ball.x = newX;
+            ball.y = newY;
+        }
+        
+        // Mouse interaction handling
+        function handleMouseInteraction(e) {
+            const rect = canvas.getBoundingClientRect();
+            mouseX = e.clientX - rect.left;
+            mouseY = e.clientY - rect.top;
+            
+            // Interaction affects ball speed and direction based on distance from center
+            const centerXDiff = mouseX - centerX;
+            const centerYDiff = mouseY - centerY;
+            
+            // Calculate distance of mouse position from center
+            const distanceFromCenter = Math.sqrt(centerXDiff*2 + centerYDiff*2);
+            
+            // Interaction distance - only balls near the center are affected
+            const interactionThreshold = 30;
+            if (distanceFromCenter < canvas.width/2) {
+                // Calculate angle from center based on mouse position
+                const directionAngle = Math.atan2(-centerYDiff, centerXDiff);
+                
+                // Only affect balls within interaction distance
+                if (ball.radius < interactionThreshold) {
+                    const speedFactor = Math.min(distanceFromCenter / (canvas.width/4), 1) * 
+                                       interactionThreshold / distanceFromCenter;
+                    ball.radius = Math.min(interactionThreshold, 20);
+                }
+            }
+        }
+
+        // Draw function
+        function draw() {
+            // Clear canvas with a gradient background to make it visually interesting
+            const gradient = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
+            gradient.addColorStop(0, '#ffccd5');
+            gradient.addColorStop(1, '#c9e8de');
+            
+            ctx.fillStyle = gradient;
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            
+            // Draw a subtle grid pattern
+            ctx.strokeStyle = "rgba(0, 0, 0, 0.1)";
+            const gridSize = 20;
+            
+            for (let x = 0; x < canvas.width; x += gridSize) {
+                ctx.beginPath();
+                for (let y = 0; y < canvas.height; y += gridSize) {
+                    const pxX1 = x - boundaries.left;
+                    const pyY = y + gridSize/2 - boundaries.top;
+                    
+                    if (pxX1 % 40 === 0) {
+                        ctx.moveTo(x, y);
+                        if (y < canvas.height - gridSize/2) {
+                            for(let nextY = y + gridSize; nextY < canvas.height; nextY += gridSize) {
+                                if (nextY % 40 === y % 40 && x - boundaries.left < canvas.width) {
+                                    ctx.lineTo(x, nextY);
+                                }
+                            }
+                        }
+                    } else if (x % 40 < gridSize) {
+                        // Horizontal lines every other grid
+                    }
+                }
+            }
+            
+            ctx.stroke();
+            
+            // Update ball position based on velocity
+            if (container.dataset.simulating === 'true') {
+                let newBall = Object.assign({}, ball);
+                
+                // Calculate next position without boundaries for maximum speed
+                const tempX = newBall.x + newBall.vx;
+                const tempY = newBall.y + newBall.vy;
+                
+                // Check collision with walls
+                if (tempX <= boundaries.left || tempX >= boundaries.right) {
+                    // Flip x velocity and possibly y to simulate off wall bounce
+                    newBall.vx = -newBall.vx;
+                }
+                
+                if (tempY <= boundaries.top || tempY >= boundaries.bottom) {
+                    // Flip y velocity with a slight chance of not bouncing "perfectly"
+                    if (Math.random() > 0.05) {
+                        newBall.vy = -newBall.vy;
+                    } else {
+                        // Occasionally give side effect when ball hits top or bottom
+                        newBall.vx *= -1;
+                    }
+                }
+                
+                // Only update position if no collision was detected
+                ball.x = tempX;
+                ball.y = tempY;
+            }
+            
+            // Draw the square with a different color gradient to distinguish it
+            const squareGradient = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
+            // Square gradient - lighter to darker
+            squareGradient.addColorStop(0, '#ff9f43');
+            squareGradient.addColorStop(1, '#56c0ef');
+            
+            ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
+            ctx.fillRect(boundaries.left + boundaries.right/2 - canvas.width/2, 0, 
+                          boundaries.right - boundaries.left + 10, canvas.height);
+            
+            // Draw a slightly visible rectangle representing the square
+            ctx.strokeStyle = "rgba(0, 0, 0, 0.15)";
+            ctx.lineWidth = "4";
+            
+            // Make the square edges follow a sinewave to indicate movement
+            const time = Date.now() / 1000;
+            
+            // Top side of square
+            const startX = boundaries.left + (boundaries.right - boundaries.left) / 2;
+            let lastX = startX;
+            let yStart = boundaries.top + (boundaries.bottom - boundaries.top) / 2;
+            
+            // Draw square top side with sinewave effect to indicate the ball position
+            for(let x = 0; x < canvas.width + boundaries.right/2 - startX; x += 4) {
+                lastX = x;
+                
+                // Calculate sine wave modulation for the top edge
+                const amplitude = 5 + Math.sin(time * speedFactor) * ball.radius;
+                
+                ctx.lineTo(x, yStart);
+            }
+            
+            // Bottom side of square with sinewave at opposite phase
+            const yEnd = boundaries.bottom - (boundaries.right - boundaries.left)/4;
+            
+            // Draw the top side of square with sinewave effect
+            ctx.strokeRect(boundaries.left, boundaries.top, 
+                          boundaries.right - boundaries.left, 4);
+            
+            // Draw the bottom side of square with sinewave effect
+            for(let x = lastX; x < canvas.width + boundaries.right/2 - startX; x += 4) {
+                // Calculate sine wave modulation with opposite phase to top side
+                const amplitude = 5 + Math.sin(time * speedFactor) * (-ball.radius);
+                
+                ctx.lineTo(x, yEnd);
+            }
+            
+            // Draw the ball with gradient fill to make it look more 3D
+            const radialGradient = ctx.createRadialGradient(
+                ball.x, 
+                ball.y,
+                0, 
+                ball.x, 
+                ball.y,
+                ball.radius * 1.5
+            );
+            
+            // Lighter outer edge, darker inner core for a more realistic ball appearance
+            radialGradient.addColorStop(0, `rgba(74, 144, 226, ${Math.min(0.9 + (time % 1) * -0.2, 0.7)})`);
+            radialGradient.addColorStop(1, `rgba(35, 86, 240, ${Math.min(0.7 + (time % 1) * -0.25, 0.4)})`);
+            
+            ctx.fillStyle = radialGradient;
+            ctx.beginPath();
+            const gradientBallX = ball.x - boundaries.left > 0 ? 
+                Math.max(0, Math.min(canvas.width/2, (ball.x - boundaries.left) / ((boundaries.right - boundaries.left)/4))) : 
+                0;
+                
+            const gradientBallY = ball.y - boundaries.top > 0 ? 
+                Math.max(0, Math.min(canvas.height/2, (ball.y - boundaries.top) / ((boundaries.bottom - boundaries.top)/4))) : 
+                0;
+                
+            // Ball movement affects the color gradient to appear more dynamic
+            
+            ctx.arc(ball.x, ball.y, ball.radius, 0, Math.PI * 2);
+            ctx.fill();
+        }
+
+        // Track speed factor for animation effects
+        const lastBounceTime = { x: false, y: false };
+        
+        // Basic animation effect parameters
+        function animate() {
+            draw();
+            
+            if (container.dataset.simulating === 'true') {
+                requestAnimationFrame(animate);
+            }
+        }
+
+        // Constants for animations
+        const speedFactor = 1; 
+        
+        // Handle clicks to restart simulation (remove if using button method)
+        function handleRestart() {
+            resetSimulation();
+            this.removeEventListener('click', handleRestart);
+            
+            const interval = setInterval(() => {
+                animate();
+                clearInterval(interval);
+            }, 0); // Start animation immediately
+            
+        }
+
+        // Create data attribute on simulation container to track state
+        const container = document.querySelector('.simulation-container');
+        container.dataset.initialized = 'true';
+        
+        // Start animation if the data attribute is set
+        function startIfInitialized() {
+            animate();
+            window.removeEventListener('click', startIfInitialized);
+        }
+        
+        // Touch support for mobile devices
+        function handleTouchStart(e) {
+            e.preventDefault();
+            mouseX = null;
+            mouseY = null; // We'll track touch positions separately
+            
+            const rect = canvas.getBoundingClientRect();
+            
+            // Convert touch coordinates to screen coordinates
+            const touchX = e.touches[0].clientX;
+            const touchY = e.touches[0].clientY;
+            
+            mouseX = touchX - rect.left;
+            mouseY = touchY - rect.top;
+        }
+        
+        // Set initial state based on whether it's initialized or not
+        if (!container.dataset.simulating) {
+            // Initial simulation setup with no data to track
+            
+            if (container.dataset.initialized === 'true') {
+                // Already initialized, check for simulation start
+                
+                if (!container.dataset.simulating) {
+                    const interval = setInterval(() => animate(), 0);
+                }
+            } else if (container.dataset.initialized === 'false') {
+                // Not initialized yet
+                
+                container.addEventListener('click', startIfInitialized);
+            }
+        } else {
+            // Simulation was already started or not
+            
+            if (container.dataset.initialized === 'false') {
+                // Initialize the simulation
+                
+                container.addEventListener('click', startIfInitialized);
+            }
+        }
+
+        // Touch event handler for mobile devices
+        canvas.addEventListener('touchstart', handleTouchStart, false);
+    </script>
+</body>
+</html>
