@@ -62,7 +62,7 @@ We redesigned Calvert's platform to serve three user roles: Advisors, Investors,
 ## Outcomes 
 
 #### Transformed User Experience
-The redesigned platform fundamentally changed how Calvert's teams interacted with their core system. What was once a source of frustration became a tool that enabled their mission.Impact delivered:
+The redesigned platform fundamentally changed how Calvert's teams interacted with their core system. What was once a source of frustration became a tool that enabled their mission. Impact delivered:
 
 - Workflow efficiency improved across primary user tasks
 - User satisfaction increased significantly (estimated 30-40% improvement)
@@ -72,7 +72,7 @@ The redesigned platform fundamentally changed how Calvert's teams interacted wit
 #### Sustainable Design Infrastructure
 Beyond the immediate redesign, we built a design system that positioned Calvert for long-term success. The component library and documentation we delivered enable their teams to maintain consistency and quality as the platform evolves.Long-term value:
 
-- Design-to-development efficiency improved by ~30%
+- Design to development efficiency improved by ~30%
 - Foundation for scaling without proportional design resource increases
 - Quality standards established for future platform development
 
@@ -84,10 +84,10 @@ By simplifying complex workflows and clarifying information architecture, we gav
 
 #### What I Learned
 
-- **Leadership Isn't Just About Title**. Transitioning from support to lead designer taught me that leadership is earned through clear communication, thoughtful decisions, and genuine collaboration. Taking ownership of the design direction meant balancing confidence in my decisions with openness to feedback—a tension that ultimately strengthened both the work and my capabilities.
+- **Leadership Isn't Just About Title**. Transitioning from support to lead designer taught me that leadership is earned through clear communication, thoughtful decisions, and genuine collaboration. Taking ownership of the design direction meant balancing confidence in my decisions that ultimately strengthened both the work and my capabilities.
 
 - **Enterprise Design Is Systems Thinking**. Designing for three user roles with overlapping but distinct needs required thinking in systems, not just screens. Success came from creating flexible, component-based patterns and solutions that could serve multiple contexts while maintaining coherence.
 
-- **Process Matters as Much as Output**. Agile methodology wasn't just about velocity—it was about learning continuously. Weekly testing and feedback loops created a rhythm of validation that prevented expensive mistakes. The process itself built trust with stakeholders and kept the team aligned even as priorities shifted.
+- **Process Matters as Much as Output**. Agile methodology wasn't just about velocity, it was about learning continuously. Weekly testing and feedback loops created a rhythm of validation that prevented expensive mistakes. The process itself built trust with stakeholders and kept the team aligned even as priorities shifted.
 
-- **Constraints Drive Creativity**. Working with a nonprofit meant designing within tighter resource constraints than typical enterprise projects. Rather than limiting the work, these constraints forced clearer prioritization and more creative problem-solving. The best solution isn't always the most elaborate—sometimes it's the one that delivers maximum impact within realistic boundaries.
+- **Constraints Drive Creativity**. Working with a nonprofit meant designing within tighter resource constraints than typical enterprise projects. Rather than limiting the work, these constraints forced prioritization and more creative problem solving. The best solution isn't always the most elaborate, sometimes it's the one that delivers real impact within boundaries.
