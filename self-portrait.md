@@ -44,9 +44,16 @@ The p5.js sketch went through several iterations, each one refining the rules. T
 
 <iframe src="https://editor.p5js.org/AngelaMeow/full/bTIX_3bNJ"></iframe>
 
-- Custom rules 
-Entity-based model — each original cell became an "entity" that owns and tracks its spawned neighbors. This was the biggest architectural shift, moving from a flat 2D grid to a data structure where originals carry their neighbors with them.
-- Group movement — when an original moves to an adjacent cell, all its neighbors shift by the same offset, creating clusters that drift across the grid.
-— dominant originals spawn 2 neighbors per frame (non-dominant spawn 1), capped at 6 per original. Opposite-side neighbors die on contact with any dominant cell. Neutral cells act as hazards, killing any neighbor they touch regardless of side.
+- Defining a set of custom rules to create the desire behavior for the sentiments. The behavior is explained in the next section
+- Using Claude AI to handle some refactoring and restructuring, polishing the kill logic, debugging some issue.
 
-I used Claude AI to handle some refactoring and restructuring, polishing the kill logic, debugging some issue.
+
+### The Result 
+
+#### How the System Works
+
+Understanding this few concepts make the data readable.
+- **Originals** are the core cells, the emotion (positive, negative or neutral) words counted from the journal data. They're rendered at full opacity (yellow for positive, black for negative, lightblue for neutral). Originals are immortal: they never die, and they persist interactions.
+- **Neighbors** are spawned by originals. Each frame, a positive or negative original generates new cells on empty adjacent squares, up to a maximum of 6 at any time. Neighbors are the same color as their parent but at 50% opacity. They can't spawn cells of their own. When their parent original moves, all its neighbors shift in the same direction, drifting across the grid as a cluster.
+- **Dominant behavior** is determined by which emotion (positive or negative) has more counts on each entry. The dominant side gets two advantages: its originals spawn 2 neighbors per frame instead of 1, and its cells (both originals and neighbors) act as killers. The non-dominant side spawns slower and its neighbors are vulnerable.
+- **Killing** happens in two ways. First, By dominance: any non-dominant neighbor that touches a cell from the dominant side, whether an original or a neighbor, is destroyed and removed from the grid. This means the dominant sentiment actively erases the opposition's spread. Second, neutral cells act as indiscriminate killers any neighbor, positive or negative, that lands adjacent to a neutral cell gets killed. Neutrals don't take sides but disrupt both.
