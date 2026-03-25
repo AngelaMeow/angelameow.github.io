@@ -27,13 +27,26 @@ That comparison was valuable though. It validated that the sentiment analysis ca
 
 ### The Process
 
-I've started scanning the journal entries to pr
-
-The foundation is a JSON file where each journal entry has been analyzed for sentiment. Each entry contains counts of positive, negative, and neutral words. For example:
+#### Digitalizing the Dataset 
+I've started scanning the journal entries to digitalize the journal data quickly and be able to work with it. The outcome from the first Step is a JSON file where each journal entry has included the date and counts of the sentiment analysis. Each entry contains counts of positive, negative, and neutral words. 
 
 `{
   "date": "2026-03-05",
   "counts": { "positive": 2, "negative": 8, "neutral": 2 }
 }`
 
-These counts become the initial population of cells on an 8×8 grid. The dominant sentiment (whichever has more original cells) gets an advantage — it spawns faster and its cells kill the opposition. Ten entries run simultaneously as individual tiles, each with its own ecosystem.
+The JSON file was processed using a prompt on Qwen 2.5, designed to classify words into positive, negative, and neutral categories. The prompt was iterated to handle edge cases — phrases like "physically felt from a cliff" needed to be captured as negative despite containing no single obvious negative keyword.
+
+#### Building the visualization with AI assistance
+The p5.js sketch went through several iterations, each one refining the rules. The key milestones were:
+
+- Loading the JSON data and mapping sentiment counts to colored cells.
+
+<iframe src="https://editor.p5js.org/AngelaMeow/full/bTIX_3bNJ"></iframe>
+
+- Custom rules 
+Entity-based model — each original cell became an "entity" that owns and tracks its spawned neighbors. This was the biggest architectural shift, moving from a flat 2D grid to a data structure where originals carry their neighbors with them.
+- Group movement — when an original moves to an adjacent cell, all its neighbors shift by the same offset, creating clusters that drift across the grid.
+— dominant originals spawn 2 neighbors per frame (non-dominant spawn 1), capped at 6 per original. Opposite-side neighbors die on contact with any dominant cell. Neutral cells act as hazards, killing any neighbor they touch regardless of side.
+
+I used Claude AI to handle some refactoring and restructuring, polishing the kill logic, debugging some issue.
