@@ -28,7 +28,7 @@ That comparison was valuable though. It validated that the sentiment analysis ca
 ### The Process
 
 #### Digitalizing the Dataset 
-I've started scanning the journal entries to digitalize the journal data quickly and be able to work with it. The outcome from the first Step is a JSON file where each journal entry has included the date and counts of the sentiment analysis. Each entry contains counts of positive, negative, and neutral words. 
+I've started scanning the journal entries to digitalize the journal data quickly and be able to work with it. The outcome from the first step is a JSON file including each journal entry date and word counts of the sentiment analysis. Each entry contains counts of positive, negative, and neutral words. 
 
 `{
   "date": "2026-03-05",
