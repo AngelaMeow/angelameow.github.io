@@ -92,5 +92,5 @@ Technical and non technical outcomes:
 - Real-time content optimization and A/B testing capabilities
 
 #### What I Learned
-- Startups don't move in straight lines. Both projects experienced multiple priority shifts, strategy pivots, and OKR changes—sometimes mid-development. This taught me to build for adaptability first: flexible architectures, modular systems, and interfaces that can evolve without requiring rebuilds.
-- Working closely with non-technical teams was initially challenging but ultimately critical to success. Understanding marketing workflows, content strategies, and business constraints informed better technical decisions. The coordination overhead was real, but so was the impact—these platforms succeeded precisely because they were designed around actual business needs, not just technical ideals.
+- Startups don't move in straight lines. Both projects experienced multiple priority shifts, strategy pivots, and OKR changes sometimes during development phases. This taught me to build for adaptability first: flexible architectures, modular systems, and interfaces that can evolve without requiring rebuilds.
+- Working closely with non-technical teams was initially challenging but ultimately critical to success. Understanding marketing workflows, content strategies, and business constraints informed better technical decisions. The coordination overhead was real, but so was the impact that these platforms succeeded because they were designed around actual business needs, not just technical ideals.
