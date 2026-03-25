@@ -516,11 +516,6 @@ footer {
 			padding: 2rem;
 		}
 	}
-}
-
-.custom-article-page .entry-content {
-	max-width: 1200px;
-	margin: auto;
 	code {
 	    padding: 30px;
 	    display: block;
@@ -529,4 +524,26 @@ footer {
 	    font-family: monospace;
 	    font-size: 0.8rem;
 	}
+	.label-item {
+		display: flex; 
+		flex-direction: column;
+		gap: 4px;
+	}
+	.label-item .cell {
+		display: block;
+		height: 20px;
+		width: 20px; 
+	}
+	.label-item.positive .cell {
+		background-color: rgba(255, 191, 0);
+	}
+	
+	.label-item.negative .cell {
+		background-color: rgba(0, 0, 0);
+	}
+	
+	.label-item.neutral .cell {
+		background-color: rgba(176, 196, 222);
+	}
 }
+
