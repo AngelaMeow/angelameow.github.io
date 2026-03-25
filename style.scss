@@ -503,11 +503,11 @@ footer {
 
 .custom-article-page {
 	width: 100%;
-	background: linear-gradient(0deg, #ffcbcb, #d4fafe);
-	background-image: url('images/img-hero-data.jpg');
+	background-image: url('images/img-hero-data.jpg'),
+		linear-gradient(0deg, #ffcbcb, #d4fafe);
 	background-repeat: repeat-x; 
-	background-size: 100px 100vw;
-	padding: 40px 0;
+	background-size: auto 300px;
+	padding: 120px 0;
 	margin: -50px 0;	
 }
 
