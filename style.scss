@@ -511,4 +511,13 @@ footer {
 .custom-article-page .entry-content {
 	max-width: 1200px;
 	margin: auto;
+	code {
+	    padding: 30px;
+	    display: block;
+	    background: #FAFAFA;
+	    border-radius: 1rem;
+	    font-family: monospace;
+	    font-size: 0.8rem;
+		}
+	}
 }
