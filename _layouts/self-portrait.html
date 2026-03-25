@@ -8,9 +8,25 @@ layout: default
     <h1 style="max-width: 980px; margin: 40px auto;">{{ page.title }}</h1>
     {{ content }}
   
-    <iframe style="width: 520px; height: 700px; margin: 40px auto" src="https://editor.p5js.org/AngelaMeow/full/jofugYrxm"></iframe>
-  
-    <div class="breadcumb-back breadcumb-back--bottom">
+    <iframe style="width: 520px; height: 700px; margin: 40px auto 0" src="https://editor.p5js.org/AngelaMeow/full/jofugYrxm"></iframe>
+
+    <div style="margin-bottom: 40px; display: flex; flex-direction: column;" class="data-labels">
+      <div class="label-item positive">
+        <span class="cell"></span>
+        <p>Positive sentiments</p>
+      </div>
+
+      <div class="label-item negative">
+        <span class="cell"></span>
+        <p>Negative sentiments</p>
+      </div>
+
+      <div class="label-item neutral">
+        <span class="cell"></span>
+        <p>Neutral sentiments</p>
+      </div>
+    </div>  
+    <div class="breadcumb-back breadcumb-back--bottom" style="margin-top: 40px;">
       <a href="https://angelato.design/" class="button">
         <p>Explore more of my projects</p>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
