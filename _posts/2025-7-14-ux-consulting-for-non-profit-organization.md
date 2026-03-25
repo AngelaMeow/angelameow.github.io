@@ -100,5 +100,5 @@ Strategic outcomes:
 - Improved brand consistency across products 
 
 #### Project Learnings
-- Inheriting the Pakas project mid-development taught valuable lessons in pragmatic problem-solving. Rather than pursuing ideal solutions within tight time and budget constraints, we optimized existing infrastructure—demonstrating that strategic adaptation often delivers better value than complete rebuilds.
-- Serving as the sole technical resource expanded my capacity to own complex decisions independently. Without an IT department to lean on, I developed deeper expertise across hosting, backend systems, and user support—ultimately enabling faster, more customized solutions aligned with MUA's mission-driven work.
+- Inheriting the Pakas project taught valuable lessons in pragmatic problem-solving. Rather than pursuing ideal solutions within tight time and budget constraints, we optimized existing infrastructure demonstrating that strategic adaptation often delivers better value than complete rebuilds.
+- Serving as the sole technical resource expanded my capacity to own complex decisions independently. Without an IT department to lean on, I developed deeper expertise across hosting, backend systems, and user support to enable faster, more customized solutions aligned with MUA's mission.
