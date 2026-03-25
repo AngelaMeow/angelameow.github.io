@@ -35,17 +35,17 @@ I've started scanning the journal entries to digitalize the journal data quickly
   "counts": { "positive": 2, "negative": 8, "neutral": 2 }
 }`
 
-The JSON file was processed using a prompt on Qwen 2.5, designed to classify words into positive, negative, and neutral categories. The prompt was iterated to handle edge cases — phrases like "physically felt from a cliff" needed to be captured as negative despite containing no single obvious negative keyword.
+The JSON file was processed using a prompt on Qwen 2.5, designed to classify words into positive, negative, and neutral categories.
 
 #### Building the visualization with AI assistance
-The p5.js sketch went through several iterations, each one refining the rules. The key milestones were:
+The p5.js sketch went through several iterations, each one refining the rules. My goals were:
 
 - Loading the JSON data and mapping sentiment counts to colored cells. The following graphic was the firs iteration where I achieved loading properly the data and seting up the variables to work with the data. 
 
 <iframe style="width: 520px; height: 700px; margin: 40px auto" src="https://editor.p5js.org/AngelaMeow/full/bTIX_3bNJ"></iframe>
 
-- Defining a set of custom rules to create the desire behavior for the sentiments. The behavior is explained in the next section
-- Using Claude AI to handle some refactoring and restructuring, polishing the kill logic, debugging some issue.
+- Defining a set of custom rules to create the desire behavior for the sentiments. The behavior is explained in the next section "The Result".
+- Using Claude AI to handle some refactoring and restructuring, polishing the killing logic, and debugging some issue.
 
 
 ### The Result 
