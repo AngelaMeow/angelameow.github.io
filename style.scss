@@ -524,6 +524,14 @@ footer {
 	    font-family: monospace;
 	    font-size: 0.8rem;
 	}
+	.data-labels {
+		margin-bottom: 40px;
+	    display: flex;
+	    flex-direction: row;
+	    align-items: center;
+	    gap: 0 24px;
+	    flex-wrap: wrap;
+	}
 	.label-item {
 		display: flex; 
 		flex-direction: row;
