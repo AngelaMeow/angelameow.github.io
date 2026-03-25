@@ -42,7 +42,7 @@ The p5.js sketch went through several iterations, each one refining the rules. T
 
 - Loading the JSON data and mapping sentiment counts to colored cells.
 
-<iframe tyle="width: 520px; height: 700px; margin: 40px auto" src="https://editor.p5js.org/AngelaMeow/full/bTIX_3bNJ"></iframe>
+<iframe style="width: 520px; height: 700px; margin: 40px auto" src="https://editor.p5js.org/AngelaMeow/full/bTIX_3bNJ"></iframe>
 
 - Defining a set of custom rules to create the desire behavior for the sentiments. The behavior is explained in the next section
 - Using Claude AI to handle some refactoring and restructuring, polishing the kill logic, debugging some issue.
