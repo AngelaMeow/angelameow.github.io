@@ -40,7 +40,7 @@ The JSON file was processed using a prompt on Qwen 2.5, designed to classify wor
 #### Building the visualization with AI assistance
 The p5.js sketch went through several iterations, each one refining the rules. My goals were:
 
-- Loading the JSON data and mapping sentiment counts to colored cells. The following graphic was the firs iteration where I achieved loading properly the data and seting up the variables to work with the data. 
+- Loading the JSON data and mapping sentiment counts to colored cells. The following graphic was the first iteration where I achieved loading and using the values from the JSON file properly. 
 
 <iframe style="width: 520px; height: 700px; margin: 40px auto" src="https://editor.p5js.org/AngelaMeow/full/bTIX_3bNJ"></iframe>
 
