@@ -504,7 +504,7 @@ footer {
 .custom-article-page {
 	width: 100%;
 	background-image: url('images/img-hero-data.jpg'); 
-	background-size: auto 250px;
+	background-size: auto 400px;
 	padding: 120px 0;
 	margin: -50px 0;	
 	.entry {
@@ -512,6 +512,7 @@ footer {
 	    background: white;
 		display: flex; 
 		flex-direction: column;
+		border: 2px solid #EEE;
 		@include mobile {
 			padding: 2rem;
 		}
