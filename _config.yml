@@ -76,6 +76,11 @@ gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 
+# Jekyll ignores dirs/files starting with "_" by default (like Next.js's
+# _next asset folder) — force-include it so the Alero prototype's JS/CSS ships.
+include:
+  - "_next"
+
 # Exclude these files from your production _site
 exclude:
   - Gemfile
@@ -83,3 +88,4 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  - alero-src
