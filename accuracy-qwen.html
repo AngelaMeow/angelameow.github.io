@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bouncing Ball Simulation</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        canvas {
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+
+<canvas id="bouncingBallCanvas" width="600" height="600"></canvas>
+
+<script>
+    const canvas = document.getElementById('bouncingBallCanvas');
+    const ctx = canvas.getContext('2d');
+
+    // Randomly generate initial velocity
+    function getRandomVelocity() {
+        return (Math.random() - 0.5) * 10; // Generates a random number between -5 and 5 for both x and y velocities.
+    }
+
+    let ballPosition = {x: canvas.width / 2, y: canvas.height / 2};
+    let ballRadius = 10;
+    let dx = getRandomVelocity();
+    let dy = getRandomVelocity();
+
+    function drawBall() {
+        ctx.beginPath();
+        ctx.arc(ballPosition.x, ballPosition.y, ballRadius, 0, Math.PI * 2);
+        ctx.fillStyle = "#FF6347";
+        ctx.fill();
+        ctx.closePath();
+    }
+
+    function clearCanvas() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+    }
+
+    function updateBallPosition() {
+        // Update ball position
+        ballPosition.x += dx;
+        ballPosition.y += dy;
+
+        // Bounce off the walls (elastic collisions)
+        if (ballPosition.x + ballRadius >= canvas.width || ballPosition.x - ballRadius <= 0) {
+            dx = -dx; // Reverse x velocity when hitting left or right wall
+        }
+
+        if (ballPosition.y + ballRadius >= canvas.height || ballPosition.y - ballRadius <= 0) {
+            dy = -dy; // Reverse y velocity when hitting top or bottom wall
+        }
+    }
+
+    function animate() {
+        clearCanvas();
+        drawBall();
+        updateBallPosition();
+
+        requestAnimationFrame(animate);
+    }
+
+    animate();
+
+</script>
+
+</body>
+</html>

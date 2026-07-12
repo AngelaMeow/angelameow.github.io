@@ -8,3 +8,9 @@ Gemfile
 Gemfile.lock
 node_modules
 package.json
+
+# Alero (Next.js source lives in alero-src/, built output is committed to /projects/alero)
+!alero-src/package.json
+!alero-src/package-lock.json
+alero-src/.next
+alero-src/out

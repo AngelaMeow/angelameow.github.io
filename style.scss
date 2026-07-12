@@ -18,25 +18,24 @@ html {
 }
 
 body {
-	background: $white;
-  font: 18px/1.4 $helvetica;
+  background: $white;
+  font: 18px/1.4 $spaceGrotesk;
   color: $darkGray;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
-  padding: 0 10px;
+  max-width: 100%;
+  padding: 0;
   width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  font-family: $spaceGrotesk;
   color: $darkerGray;
   font-weight: bold;
-
   line-height: 1.7;
-  margin: 1em 0 15px;
+  margin: 2rem 0 1rem;
   padding: 0;
 
   @include mobile {
@@ -110,6 +109,35 @@ img {
   max-width: 100%;
 }
 
+.button {
+	display: flex;
+    padding: 0.5rem 1.5rem;
+    background: $blue;
+    border-radius: 0.25rem;
+    color: $white;
+    width: fit-content;
+    margin: 2rem auto;
+	transition: all .4s ease-in-out;
+	border: none;
+    font-size: 1.2rem;
+    font-family: 'Space Grotesk';
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.button:hover {
+	box-shadow: 0 0 50px rgba(0,0,0,.15);
+	background: $blue-dark;
+	color: white;
+}
+
+.button svg {
+	height: 24px;
+    display: inline-flex;
+}
+
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
@@ -155,7 +183,7 @@ img {
 }
 
 .masthead {
-  padding: 20px 0;
+  padding: 20px;
   border-bottom: 1px solid $lightGray;
 
   @include mobile {
@@ -194,7 +222,7 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue;
+  font-family: $spaceGrotesk;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -213,7 +241,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+  font-family: $spaceGrotesk;
   font-size: 18px;
 
   @include mobile {
@@ -241,14 +269,42 @@ nav {
 // .main
 //
 
-.posts > .post {
-  padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+.posts {
+	display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(560px, 1fr));
+	justify-content: center;
+    align-items: stretch;
+    border-top: 1px solid $lightGray;
+    border-left: 1px solid $lightGray;
+	margin: 2rem 0;
+	
+	@include mobile {
+		grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+	}
+		
 }
 
-.posts > .post:last-child {
-  padding-bottom: 1em;
-  border-bottom: none;
+.posts > .post {
+  padding-bottom: 3em;
+  display: flex;
+  flex-direction: column;	
+  gap: 20px;
+  border-bottom: 1px solid $lightGray;
+  border-right: 1px solid $lightGray; 
+  overflow: hidden;
+	h1 {
+		margin-top: .5rem;
+	}
+	.post-content {
+		padding: 1rem 2rem;
+	}
+	.post-image {
+		object-fit: cover;
+		transition: all .25s ease-in-out;
+	}
+	&:hover .post-image {
+		 transform: scale(1.05);
+	}
 }
 
 .post {
@@ -265,6 +321,10 @@ nav {
     margin-top: 10px;
   }
 
+  h2 a {
+	  color: $darkGray;
+  }
+
   .read-more {
     text-transform: uppercase;
     font-size: 15px;
@@ -278,12 +338,222 @@ nav {
   background-color: $lightGray;
 }
 
+.about-intro {
+  max-width: 720px;
+  margin: auto;
+  h1, h4, p {
+    text-align: center;
+	  margin-top: 0.75rem;
+  }
+}
+
+.posts-heading {
+  max-width: 720px;
+  margin: 3rem auto;
+  h2, p {
+    text-align: center;
+  }	
+}
+
+.page {
+	max-width: 940px;
+	margin: auto;
+}
+
+.post-container {
+max-width: 940px;
+margin: auto;
+  .entry {
+	margin: auto;
+	img {
+		margin-top: 1.5rem;
+	}
+	p, ul {
+	   	 margin: 1.5rem auto 1rem auto;	  
+	  }	  
+	h2, h4, hr {
+		margin-top: 3rem;
+	}
+  } 
+}
+
+.about-project {
+	display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 0 4rem 0;
+    padding: 0;
+	position: relative; 
+	z-index: 1;
+	flex-wrap: wrap;
+	@include mobile {
+		flex-direction: column;
+	  }
+	&:after {
+		display: block; 
+		content: "";
+		z-index: -1;
+		position: absolute; 
+		width: 100%; 
+		height: 100%; 
+		top: 20px; 
+		left: 20px; 
+		background-color: #333;
+		opacity: 0.8;
+		background-image: radial-gradient(#333 0.5px, #EEE 0.5px);
+		background-size: 10px 10px;
+	}
+	div {
+		padding: 30px; 
+		background: #FAFAFA;
+	}
+	.col-1 {
+		width: 40%;
+		h2 {
+			font-size: 2.75rem;
+			line-height: 125%;
+			@include mobile {
+				font-size: 2rem;
+			  }
+		}
+		.button {
+			margin-left: 0;
+			margin-right: 0;
+		}
+	}
+	.col-2 {
+		width: 60%;
+		ul {
+			display: flex;
+		    list-style: none;
+		    margin: 0;
+		    padding: 0;
+			
+		}
+		li {
+			width: 50%;
+    		padding-right: 20px;
+		}
+		h5 {
+			margin-bottom: 0.5rem;
+		}
+		p {
+			margin-top: 0.5rem;
+		}
+	}
+}
+
+.main-index form {
+	display: flex; 
+	flex-direction: column; 
+	gap: 1rem; 
+	label {
+		display: flex; 
+		flex-direction: column; 
+		input, textarea {
+			padding: 1rem;
+			border: 1px solid $gray;
+		    font-family: $spaceGrotesk;
+		    font-size: 1rem;
+		    margin: .75rem 0;
+		}
+	}
+}
+
+.contact-form {
+	width: 100%; 
+	padding: 2rem;
+}
+
+.breadcumb-back--bottom {
+	margin: 2.5rem auto;
+}
+
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+/* OYD page */
+
+.oyd-gallery {
+	display: grid; 
+	grid-template-columns: repeat(2, 1fr); 
+	margin: 40px 3vw;
+	@include mobile {
+		display: flex; 
+		flex-direction: column;
+		gap: 1.5rem;
+	  }
+}
+
+.oyd-gallery-item {
+	padding: 1rem;
+}
+
+.oyd-gallery-item.image{
+	background-color: #f2e8ff; 
+	text-align:center;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+
+.custom-article-page {
+	width: 100%;
+	background-image: url('images/img-hero-data.jpg'); 
+	background-size: auto 400px;
+	padding: 120px 0;
+	margin: -50px 0;	
+	.entry {
+	    padding: 4rem 6rem;
+	    background: white;
+		display: flex; 
+		flex-direction: column;
+		border: 2px solid #EEE;
+		@include mobile {
+			padding: 2rem;
+		}
+	}
+	code {
+	    padding: 30px;
+	    display: block;
+	    background: #FAFAFA;
+	    border-radius: 1rem;
+	    font-family: monospace;
+	    font-size: 0.8rem;
+	}
+	.data-labels {
+		margin-bottom: 40px;
+	    display: flex;
+	    flex-direction: row;
+	    align-items: center;
+	    gap: 0 24px;
+	    flex-wrap: wrap;
+	}
+	.label-item {
+		display: flex; 
+		flex-direction: row;
+		align-items: center;
+		gap: 8px;
+	}
+	.label-item .cell {
+		display: block;
+		height: 20px;
+		width: 20px; 
+	}
+	.label-item.positive .cell {
+		background-color: rgb(255, 191, 0);
+	}
+	
+	.label-item.negative .cell {
+		background-color: rgb(0, 0, 0);
+	}
+	
+	.label-item.neutral .cell {
+		background-color: rgb(176, 196, 222);
+	}
+}
+

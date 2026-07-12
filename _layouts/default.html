@@ -11,6 +11,21 @@
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+    <!-- Hotjar Tracking Code for Site 3045203 (name missing) -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:3045203,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
@@ -27,8 +42,9 @@
           </div>
 
           <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
+            <a href="{{ site.baseurl }}/">Portfolio</a>
+            <a href="{{ site.baseurl }}/about-me">About me</a>
+            <a href="{{ site.baseurl }}/#CONTACT">Contact</a>
           </nav>
         </header>
       </div>
@@ -41,7 +57,11 @@
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
+          <div class="cta-section">
+            <h2>See What I’m Up To:</h2>
+          </div>
           {% include svg-icons.html %}
+          <p>Build using <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> © 2025 — All Rights Reserved</p>
         </footer>
       </div>
     </div>

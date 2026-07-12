@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ball Simulation</title>
+    <style>
+        #canvas {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="canvas" width="600" height="600"></canvas>
+
+    <script>
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+
+        // Ball properties
+        let ballX = Math.random() * (canvas.width - 20) + 10;
+        let ballY = Math.random() * (canvas.height - 20) + 10;
+        let ballVelX = Math.random() * 6 - 3;
+        let ballVelY = Math.random() * 6 - 3;
+        let ballRadius = 10;
+
+        // Game loop
+        function update() {
+            ballX += ballVelX;
+            ballY += ballVelY;
+
+            if (ballX + ballRadius > canvas.width || ballX - ballRadius < 0) {
+                ballVelX *= -1;
+            }
+            if (ballY + ballRadius > canvas.height || ballY - ballRadius < 0) {
+                ballVelY *= -1;
+            }
+
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            drawBall();
+            requestAnimationFrame(update);
+        }
+
+        function drawBall() {
+            ctx.beginPath();
+            ctx.arc(ballX, ballY, ballRadius, 0, Math.PI * 2);
+            ctx.fillStyle = 'black';
+            ctx.fill();
+        }
+
+        update();
+
+        // Resize the canvas when the window is resized
+        window.onresize = () => {
+            canvas.width = innerWidth;
+            canvas.height = innerHeight;
+        };
+    </script>
+</body>
+</html>
