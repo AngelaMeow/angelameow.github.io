@@ -110,6 +110,39 @@ function CaptureRig({
   );
 }
 
+async function sharePostcard(dataUrl: string, category: BackgroundCategory) {
+  const shareData = {
+    title: "A postcard from my imaginary friend",
+    text: "I made an imaginary friend with Alero — here's a postcard from their journey.",
+  };
+
+  try {
+    const res = await fetch(dataUrl);
+    const blob = await res.blob();
+    const file = new File([blob], `alero-postcard-${category}.png`, {
+      type: "image/png",
+    });
+
+    if (navigator.canShare?.({ files: [file] })) {
+      await navigator.share({ ...shareData, files: [file] });
+      return;
+    }
+    if (navigator.share) {
+      await navigator.share(shareData);
+      return;
+    }
+  } catch (err) {
+    if (err instanceof Error && err.name === "AbortError") return;
+  }
+
+  const link = document.createElement("a");
+  link.href = dataUrl;
+  link.download = `alero-postcard-${category}.png`;
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+}
+
 function PostcardCard({
   slot,
   index,
@@ -161,13 +194,22 @@ function PostcardCard({
           {CATEGORY_LABELS[slot.category]}
         </span>
         {slot.dataUrl && (
-          <a
-            href={slot.dataUrl}
-            download={`alero-postcard-${slot.category}.png`}
-            className="rounded-full border border-border px-4 py-1.5 text-xs font-medium transition-colors hover:border-accent hover:text-accent"
-          >
-            Download
-          </a>
+          <div className="flex items-center gap-2">
+            <button
+              type="button"
+              onClick={() => sharePostcard(slot.dataUrl!, slot.category)}
+              className="rounded-full bg-accent px-4 py-1.5 text-xs font-medium text-white transition-transform hover:scale-105"
+            >
+              Share
+            </button>
+            <a
+              href={slot.dataUrl}
+              download={`alero-postcard-${slot.category}.png`}
+              className="rounded-full border border-border px-4 py-1.5 text-xs font-medium transition-colors hover:border-accent hover:text-accent"
+            >
+              Download
+            </a>
+          </div>
         )}
       </div>
     </motion.div>
@@ -217,7 +259,15 @@ export function PostcardsScreen({
         ))}
       </div>
 
-      <div className="mt-12 flex flex-col items-center justify-center gap-4 sm:flex-row">
+      <div className="mx-auto mt-12 max-w-lg rounded-2xl border border-border bg-card px-6 py-5 text-center">
+        <p className="text-sm text-muted">
+          A friend is only as close as the last time you reached out.
+          Staying in touch is part of the magic — share a postcard with
+          someone today.
+        </p>
+      </div>
+
+      <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
         <button
           type="button"
           onClick={regenerate}
