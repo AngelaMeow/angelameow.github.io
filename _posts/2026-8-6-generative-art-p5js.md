@@ -3,7 +3,7 @@ layout: post
 title: Generative Art and p5js Experiments 
 tag: Generative Art
 excerpt: Generative art pieces created during my Creative computing program at SHIFTA
-image: ../images/img-lluvia-de-gatos.jpg
+image: ../images/img-p5-art.png
 ---
 
 <div class="about-project">
