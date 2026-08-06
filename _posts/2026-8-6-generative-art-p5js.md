@@ -24,6 +24,10 @@ image: ../images/img-p5-art.png
       </li>
     </ul>  
   </div>
+
+  <iframe src="https://editor.p5js.org/AngelaMeow/full/ZSGQ48Kz_"></iframe>
+
+  <iframe src="https://editor.p5js.org/AngelaMeow/full/J6jzPhxtU"></iframe>
 </div>
 
 
@@ -31,7 +35,6 @@ image: ../images/img-p5-art.png
 
 The main goal for this assignment is to create a portrait of a mathematical idea. A piece of generative art where math is the subject, the material, and the form. I’m using trigonometry and Recursion as the tools for making my piece. Combined with mapping to generate a warm color palette.
 
-<iframe src="https://editor.p5js.org/AngelaMeow/full/ZSGQ48Kz_"></iframe>
 
 ### Generative Poster
 
@@ -50,8 +53,6 @@ As mentioned above, the function is called inside a nested loop to define the co
 1. Radio buttons to change colors, this implies a change in the hue, which provides a diﬀerent mood to the piece.
 2. Sound implementation, simple but according to the tone of my piece, there’s a barking sound mapped with the mouseY and windowHeight position.
 3. Printing the piece, handled by a keyPressed function, to allow the viewer to take a snapshot of a unique set of Friends to print as a poster, postcard, or just to save it digitally for their own use.
-
-<iframe src="https://editor.p5js.org/AngelaMeow/full/J6jzPhxtU"></iframe>
 
 
 
