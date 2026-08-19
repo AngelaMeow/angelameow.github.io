@@ -18,10 +18,10 @@ $lightGray: #eee;
 $white: #fff;
 
 // Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
-$spaceGrotesk: "Space Grotesk", sans-serif;
+$helvetica: "DM Sans", sans-serif;
+$helveticaNeue: "DM Sans", sans-serif;
+$display: "DM Serif Display", serif;
+$spaceGrotesk: "DM Sans", sans-serif;
 
 // Mobile breakpoints
 @mixin mobile {
