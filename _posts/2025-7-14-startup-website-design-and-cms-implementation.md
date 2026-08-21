@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Startup Website Design and CMS Implementation 
-tag: UI design
+tag: project
 excerpt: Designed and implemented scalable CMS solutions for startup clients, enabling non-technical teams to manage and grow their web presence independently.
 image: ../images/img-wordpress-wireframe-ss.jpg
 ---
