@@ -395,6 +395,10 @@ margin: auto;
   height: 350px;
   display: block;
   background: transparent url("images/lucho-dancing.png") 0 0;
+  @include mobile {
+    -webkit-animation: dance 3s steps(21) 3;
+	animation: dance 3s steps(21) 3;		
+  }
 }
 
 .helper {
