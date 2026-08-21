@@ -406,6 +406,7 @@ margin: auto;
     background: none;
     text-align: center;
     margin: auto;
+	anchor-name: --thumb;
 	&:hover .frame {
 		-webkit-animation: dance 3s steps(21) infinite;
           		animation: dance 3s steps(21) infinite;
@@ -414,6 +415,10 @@ margin: auto;
 
 #my-popover {
 	padding: 40px;
+	position-anchor: --thumb;
+	position: absolute;
+    left: anchor(right);
+    bottom: anchor(top);
 }
 
 @keyframes dance {
