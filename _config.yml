@@ -6,7 +6,7 @@
 name: Angela Velasquez
 
 # Short bio or description (displayed in the header)
-description: Designer
+description: UX/UI Designer
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: ../images/logo_angelato.svg
@@ -89,3 +89,9 @@ exclude:
   - README.md
   - CNAME
   - alero-src
+
+  # Collections
+  collections:
+  projects:
+    output: true
+    permalink: /:collection/:categories:output_ext
