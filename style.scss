@@ -292,7 +292,7 @@ nav {
 		margin-top: .5rem;
 	}
 	.post-content {
-		padding: 1rem 2rem;
+		padding: 1rem 0;
 	}
 	.post-image {
 		object-fit: cover;
@@ -371,6 +371,13 @@ margin: auto;
 		margin-top: 3rem;
 	}
   } 
+}
+
+.frame {
+  width: 350px;
+  height: 350px;
+  display: block;
+  background: transparent url("images/lucho-dancing.png") 0 0 no-repeat;
 }
 
 .about-project {
