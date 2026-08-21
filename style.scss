@@ -380,6 +380,23 @@ margin: auto;
   background: transparent url("images/lucho-dancing.png") 0 0 no-repeat;
 }
 
+.helper {
+	display: block;
+	&:hover .frame {
+		-webkit-animation: dance 3s steps(21) infinite;
+          		animation: dance 3s steps(21) infinite;
+	}
+}
+
+@keyframes dance {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 -7350px;
+  }
+}
+
 .about-project {
 	display: flex;
     flex-direction: row;
