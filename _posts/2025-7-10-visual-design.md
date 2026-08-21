@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Graphic Design and Illustration
-tag: Graphic Design
+tag: creative
 excerpt: A curated collection of illustration and graphic design projects showcasing my visual design skills and creative exploration.
 image: ../images/img-lluvia-de-gatos.jpg
 ---
