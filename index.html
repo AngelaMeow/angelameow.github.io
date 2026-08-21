@@ -28,10 +28,29 @@ layout: default
               <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
             </div>
           </article> 
+          <a href="{% link portfolio.html | absolute_url %})"></a>
       {% endfor %}
  
      </div>
   <h2 id="creative-code">Creative Code</h2>
+  <div class="posts">      
+      {% for post in site.tags.creative limit:2 %}
+         <article class="post">
+            {%- if post.image -%}
+            <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{- post.image | relative_url -}}" alt="" class="post-image"></a>
+            {%- else -%}
+              {%- assign postImage = "/assets/images/image-default.jpg" -%}
+              <img src="{{- postImage | relative_url -}}" alt="" class="post-image">
+            {%- endif -%}
+            <div class="post-content">
+              <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+              <p>{{ post.excerpt }}</p>
+              <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+            </div>
+          </article> 
+      {% endfor %}
+ 
+     </div>
   <h2 id="blog">Blog</h2>
   <h2 id="contact">Contact</h2>
   <div class="contact-form post">
