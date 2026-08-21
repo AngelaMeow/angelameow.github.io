@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Generative Art and p5js Experiments 
-tag: Generative Art
+tag: creative
 excerpt: Generative art pieces created during my Creative computing program at SHIFTA
 image: ../images/img-p5-art.png
 ---
