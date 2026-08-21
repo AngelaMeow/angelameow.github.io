@@ -381,7 +381,9 @@ margin: auto;
 }
 
 .helper {
-	display: block;
+	display: flex;
+	align-items: center; 
+	justify-content: center;
 	&:hover .frame {
 		-webkit-animation: dance 3s steps(21) infinite;
           		animation: dance 3s steps(21) infinite;
