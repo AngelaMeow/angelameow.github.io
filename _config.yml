@@ -90,8 +90,8 @@ exclude:
   - CNAME
   - alero-src
 
-  # Collections
-  collections:
+# Collections
+collections:
   projects:
     output: true
     permalink: /:collection/:categories:output_ext
