@@ -180,14 +180,25 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 50px;
+	position: sticky; 
+	top: 10px;
 }
 
 .masthead {
-  padding: 20px;
-  border-bottom: 1px solid $lightGray;
+  padding: 12px 20px;
+    width: 100%;
+    max-width: 1280px;
+    border: none;
+    background: #fffcf7;
+    border-radius: 100px;
+    box-shadow: 0 0 80px rgba(0, 0, 0, .15);
+    z-index: 100;
 
   @include mobile {
     text-align: center;
+    border-radius: 0;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+	
   }
 }
 
