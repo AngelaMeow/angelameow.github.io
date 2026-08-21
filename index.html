@@ -3,12 +3,16 @@ layout: default
 ---
 <div class="main-index">
   <div class="about-intro">
-      <h1>Hi, I'm Angela Velasquez</h1>
-      <h4>UX/UI Designer | Helping Software Teams Build Intuitive Products | In-house + agency experience</h4>
+      <h1>I'm Angela Velasquez</h1>
+      <h4>UX/UI designer passionate about design and code :)</h4>
+      <a class="helper">
+        <div class="frame"></div>
+      </a>
   </div>
 
+
 <div class="main-projects">
-    <h1>Design Projects & Process</h1>
+    <h2 id="link-projects">Portfolio</h2>
     <div class="posts">      
       {% for post in site.posts %}
          <article class="post">
@@ -19,20 +23,22 @@ layout: default
               <img src="{{- postImage | relative_url -}}" alt="" class="post-image">
             {%- endif -%}
             <div class="post-content">
-              <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+              <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
               <p>{{ post.excerpt }}</p>
               <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
             </div>
           </article> 
       {% endfor %}
-
-      <div class="contact-form post">
-        <h1 id="CONTACT">Leave a message</h1>
-        <p>If you are interested in my work send me a message.</p>
-        {% include contact-form.html %}
-      </div> 
  
      </div>
+  <h2 id="creative-code">Creative Code</h2>
+  <h2 id="blog">Blog</h2>
+  <h2 id="contact">Contact</h2>
+  <div class="contact-form post">
+    <h3>Leave a message</h1>
+    <p>If you are interested in my work send me a message.</p>
+    {% include contact-form.html %}
+  </div> 
   </div>
   
 </div>
