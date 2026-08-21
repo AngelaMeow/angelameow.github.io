@@ -1,7 +1,7 @@
 ---
 layout: post
 title: B2B Enterprise UX - Internal Tools Design
-tag: UI design
+tag: project
 excerpt: Designed internal enterprise tools and workflows as part of an Agile product team, improving efficiency for organizational operations.
 image: ../images/img-calvert-cover.jpg
 ---
