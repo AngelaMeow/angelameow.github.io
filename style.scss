@@ -209,7 +209,11 @@ img {
 }
 
 .site-info {
-  float: left;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    height: 70px;
 
   @include mobile {
     float: none;
