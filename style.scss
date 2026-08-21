@@ -401,6 +401,11 @@ margin: auto;
 	display: flex;
 	align-items: center; 
 	justify-content: center;
+    outline: none;
+    border: none;
+    background: none;
+    text-align: center;
+    margin: auto;
 	&:hover .frame {
 		-webkit-animation: dance 3s steps(21) infinite;
           		animation: dance 3s steps(21) infinite;
