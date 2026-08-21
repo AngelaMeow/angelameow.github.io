@@ -14,7 +14,7 @@ layout: default
 <div class="main-projects">
     <h2 id="link-projects">Portfolio</h2>
     <div class="posts">      
-      {% for post in site.posts %}
+      {% for post in site.tags.projects %}
          <article class="post">
             {%- if post.image -%}
             <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{- post.image | relative_url -}}" alt="" class="post-image"></a>
