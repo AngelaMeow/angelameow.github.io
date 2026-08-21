@@ -377,7 +377,7 @@ margin: auto;
   width: 350px;
   height: 350px;
   display: block;
-  background: transparent url("images/lucho-dancing.png") 0 0 no-repeat;
+  background: transparent url("images/lucho-dancing.png") 0 0;
 }
 
 .helper {
@@ -393,7 +393,7 @@ margin: auto;
     background-position: 0 0;
   }
   100% {
-    background-position: 0 -7350px;
+    background-position: -7350px 0;
   }
 }
 
