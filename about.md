@@ -27,19 +27,23 @@ Open to UX/UI roles with innovative product teams!
 
 ### Design
 
-- Analyze and translate user needs into actionable design requirements.
+- Analyze and translate user needs into clear, actionable design requirements.
 - Create wireframes and prototypes to explore and validate solutions.
 - Define and maintain design systems, including tokens and components.
+- Use AI agents to audit and optimize design processes and maintenance.
 
 ### Tools
 
-- Proficient in Figma, Adobe Illustrator, and Adobe Photoshop.
-- Skilled in integrating Figma Make, Lovable and other AI tools for streamlined workflows, scaling products and building design systems.
+- Proficient in Figma Design, Make and Figjam.
+- Proficient in Creative Graphic tools: Canva, Affinity and Adobe Illustrator and Photoshop.
+- Experience integrating AI tools into the Design process such as Figma Make, Claude or Lovable for streamlined workflows and scaling products and design systems.
+- Comfortable working with GitHub and Visual Studio Code.
+- Intermediate knowledge of JavaScript, PHP, HTML, and CSS.
 
 ### Team and Collaboration
 
 - Experienced in working within Agile/Scrum teams.
-- Fluent in English and Spanish; conversational in Portuguese.
+- Fluent in English and Native Spanish.
 
 
 
@@ -47,9 +51,13 @@ Open to UX/UI roles with innovative product teams!
 
 ## **👩🏻‍💻** Work experience
 
+### Designer at Freelance
+
+Aug 2024 - Present
+
 ### Designer at Morphe
 
-Jul 2024 - Present 
+Jul 2024 - Jul 2026
 
 ### **UX and Wordpress Consultant at MUA: Mujeres en las Artes**
 
@@ -94,6 +102,12 @@ _Junior_ from Nov 2012 - Nov 2015 · 3 yrs
 ---
 
 ## 📚 Education
+
+### Master’s Degree in Creative Computing
+
+*2025-2026*
+
+SHIFTA by Elisava - Barcelona, Spain (Online)
 
 ### **Bachelor's Degree in Graphic Design**
 
